@@ -1,1 +1,23 @@
+# Ignore Virtual Env
+
+venv/
+
+# Byte Code 
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+#Cache files
+*.env 
+.env 
+
+#Package Directories
+.venv/
+*.egg-info
+dist/
+build/
+
+
+
 
