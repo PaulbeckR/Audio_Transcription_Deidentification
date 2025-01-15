@@ -18,6 +18,20 @@ __pycache__/
 dist/
 build/
 
+audio_clips/
+transcripts/
+untranscribed_audio/
+wav_files_unt/
+rttm_files/
+transcribed_audio/
 
 
 
+
+PC1-1025-01
+PC1-1025-01.wav
+PC1-1025-01_S1_2022.02.28.m4a.wav
+*.wav
+*.m4a
+hamlet_test
+hamlet_test.wav
