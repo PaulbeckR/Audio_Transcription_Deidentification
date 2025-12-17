@@ -4,9 +4,10 @@
 import pandas as pd
 import numpy as np
 import os 
+import openpyxl
 
-test_path = 'C://Users//pisces2//Documents//Audio_Transcription_Deidentification//hamlet_test_truth.xlsx'
-test_fold = 'C://Users//pisces2//Documents//Audio_Transcription_Deidentification//'
+test_path = 'C://Users//paulbeck//Documents//Audio_Local_tests//transcription_test//hamlet_test_truth.xlsx'
+test_fold = 'C://Users//paulbeck//Documents//Audio_Local_tests//transcription_test'
 
 
 df = pd.read_excel(test_path)
