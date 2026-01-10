@@ -57,7 +57,8 @@ platformdirs==4.3.6
 pooch==1.8.2
 primePy==1.3
 protobuf==5.28.2
-pyannote.audio==3.3.2
+# PyAnnote packages - version 3.1.1 is compatible with torchaudio 2.1+
+pyannote.audio==3.1.1
 pyannote.core==5.0.0
 pyannote.database==5.1.0
 pyannote.metrics==3.2.1
@@ -92,10 +93,11 @@ tabulate==0.9.0
 tensorboardX==2.6.2.2
 threadpoolctl==3.5.0
 tiktoken==0.7.0
+# PyTorch ecosystem - versions must match
 torch==2.4.1
+torchaudio==2.4.1
 torch-audiomentations==0.11.1
 torch_pitch_shift==1.2.5
-torchaudio==2.4.1
 torchmetrics==1.4.2
 tqdm==4.66.5
 typer==0.12.5
@@ -103,3 +105,15 @@ typing_extensions==4.12.2
 tzdata==2024.2
 urllib3==2.2.3
 yarl==1.13.1
+
+# Week 1 Additions - Metrics and Utilities
+jiwer>=3.0.0
+psutil>=5.9.0
+openpyxl>=3.1.0
+
+# Future: WhisperX and related (to be installed)
+# whisperx
+# faster-whisper
+
+# Future: Configuration management
+# pyyaml>=6.0

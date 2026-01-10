@@ -1,0 +1,6832 @@
+{
+  "audio_file": "C:\\Users\\rpaul\\Documents\\GitHub\\Audio_Transcription_Deidentification\\Audio_Local_tests\\audio_files\\gpt_test.m4a",
+  "ground_truth_file": "C:\\Users\\rpaul\\Documents\\GitHub\\Audio_Transcription_Deidentification\\Audio_Local_tests\\transcription_test\\gpt_test_truth.csv",
+  "duration_seconds": 383.508,
+  "num_segments": 79,
+  "num_words": 1045,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.66,
+      "text": "Before we dive in today, I want to explain what we'll be working on for the next few minutes.",
+      "words": [
+        {
+          "word": "Before",
+          "start": 0.0,
+          "end": 2.24,
+          "score": 0.718
+        },
+        {
+          "word": "we",
+          "start": 2.28,
+          "end": 2.38,
+          "score": 0.854
+        },
+        {
+          "word": "dive",
+          "start": 2.4,
+          "end": 2.58,
+          "score": 0.339
+        },
+        {
+          "word": "in",
+          "start": 2.6,
+          "end": 2.68,
+          "score": 0.62
+        },
+        {
+          "word": "today,",
+          "start": 2.72,
+          "end": 3.02,
+          "score": 0.722
+        },
+        {
+          "word": "I",
+          "start": 3.12,
+          "end": 3.18,
+          "score": 0.929
+        },
+        {
+          "word": "want",
+          "start": 3.22,
+          "end": 3.38,
+          "score": 0.812
+        },
+        {
+          "word": "to",
+          "start": 3.42,
+          "end": 3.52,
+          "score": 0.926
+        },
+        {
+          "word": "explain",
+          "start": 3.58,
+          "end": 4.18,
+          "score": 0.739
+        },
+        {
+          "word": "what",
+          "start": 4.78,
+          "end": 4.86,
+          "score": 0.957
+        },
+        {
+          "word": "we'll",
+          "start": 4.9,
+          "end": 5.04,
+          "score": 0.627
+        },
+        {
+          "word": "be",
+          "start": 5.06,
+          "end": 5.14,
+          "score": 0.734
+        },
+        {
+          "word": "working",
+          "start": 5.2,
+          "end": 5.46,
+          "score": 0.729
+        },
+        {
+          "word": "on",
+          "start": 5.56,
+          "end": 5.72,
+          "score": 0.838
+        },
+        {
+          "word": "for",
+          "start": 5.76,
+          "end": 5.84,
+          "score": 0.839
+        },
+        {
+          "word": "the",
+          "start": 5.88,
+          "end": 5.94,
+          "score": 0.679
+        },
+        {
+          "word": "next",
+          "start": 5.98,
+          "end": 6.16,
+          "score": 0.633
+        },
+        {
+          "word": "few",
+          "start": 6.22,
+          "end": 6.34,
+          "score": 0.86
+        },
+        {
+          "word": "minutes.",
+          "start": 6.36,
+          "end": 6.66,
+          "score": 0.841
+        }
+      ]
+    },
+    {
+      "start": 7.021,
+      "end": 12.361,
+      "text": "This part of our session is focused on defining the problem clearly and beginning to set a realistic goal.",
+      "words": [
+        {
+          "word": "This",
+          "start": 7.021,
+          "end": 7.221,
+          "score": 0.772
+        },
+        {
+          "word": "part",
+          "start": 7.521,
+          "end": 7.701,
+          "score": 0.958
+        },
+        {
+          "word": "of",
+          "start": 7.741,
+          "end": 7.781,
+          "score": 0.992
+        },
+        {
+          "word": "our",
+          "start": 7.821,
+          "end": 7.921,
+          "score": 0.735
+        },
+        {
+          "word": "session",
+          "start": 7.941,
+          "end": 8.221,
+          "score": 0.636
+        },
+        {
+          "word": "is",
+          "start": 8.281,
+          "end": 8.341,
+          "score": 0.354
+        },
+        {
+          "word": "focused",
+          "start": 8.401,
+          "end": 8.761,
+          "score": 0.384
+        },
+        {
+          "word": "on",
+          "start": 8.781,
+          "end": 8.841,
+          "score": 0.837
+        },
+        {
+          "word": "defining",
+          "start": 8.901,
+          "end": 9.281,
+          "score": 0.788
+        },
+        {
+          "word": "the",
+          "start": 9.321,
+          "end": 9.381,
+          "score": 0.876
+        },
+        {
+          "word": "problem",
+          "start": 9.441,
+          "end": 9.741,
+          "score": 0.754
+        },
+        {
+          "word": "clearly",
+          "start": 9.781,
+          "end": 10.121,
+          "score": 0.843
+        },
+        {
+          "word": "and",
+          "start": 10.201,
+          "end": 10.281,
+          "score": 0.794
+        },
+        {
+          "word": "beginning",
+          "start": 10.761,
+          "end": 11.061,
+          "score": 0.639
+        },
+        {
+          "word": "to",
+          "start": 11.101,
+          "end": 11.201,
+          "score": 0.82
+        },
+        {
+          "word": "set",
+          "start": 11.261,
+          "end": 11.421,
+          "score": 0.807
+        },
+        {
+          "word": "a",
+          "start": 11.481,
+          "end": 11.541,
+          "score": 0.663
+        },
+        {
+          "word": "realistic",
+          "start": 11.561,
+          "end": 12.081,
+          "score": 0.555
+        },
+        {
+          "word": "goal.",
+          "start": 12.101,
+          "end": 12.361,
+          "score": 0.798
+        }
+      ]
+    },
+    {
+      "start": 13.101,
+      "end": 20.782,
+      "text": "The idea isn't to solve everything right now, but to slow things down and get a shared, concrete understanding of what's actually happening.",
+      "words": [
+        {
+          "word": "The",
+          "start": 13.101,
+          "end": 13.241,
+          "score": 0.647
+        },
+        {
+          "word": "idea",
+          "start": 13.261,
+          "end": 13.501,
+          "score": 0.708
+        },
+        {
+          "word": "isn't",
+          "start": 13.621,
+          "end": 13.821,
+          "score": 0.685
+        },
+        {
+          "word": "to",
+          "start": 13.861,
+          "end": 13.961,
+          "score": 0.584
+        },
+        {
+          "word": "solve",
+          "start": 14.021,
+          "end": 14.301,
+          "score": 0.779
+        },
+        {
+          "word": "everything",
+          "start": 14.341,
+          "end": 14.821,
+          "score": 0.783
+        },
+        {
+          "word": "right",
+          "start": 14.861,
+          "end": 15.021,
+          "score": 0.799
+        },
+        {
+          "word": "now,",
+          "start": 15.061,
+          "end": 15.341,
+          "score": 0.732
+        },
+        {
+          "word": "but",
+          "start": 15.521,
+          "end": 15.721,
+          "score": 0.836
+        },
+        {
+          "word": "to",
+          "start": 15.901,
+          "end": 16.121,
+          "score": 0.926
+        },
+        {
+          "word": "slow",
+          "start": 16.161,
+          "end": 16.381,
+          "score": 0.537
+        },
+        {
+          "word": "things",
+          "start": 16.401,
+          "end": 16.661,
+          "score": 0.813
+        },
+        {
+          "word": "down",
+          "start": 16.721,
+          "end": 16.981,
+          "score": 0.741
+        },
+        {
+          "word": "and",
+          "start": 17.041,
+          "end": 17.101,
+          "score": 0.905
+        },
+        {
+          "word": "get",
+          "start": 17.121,
+          "end": 17.241,
+          "score": 0.6
+        },
+        {
+          "word": "a",
+          "start": 17.301,
+          "end": 17.341,
+          "score": 0.833
+        },
+        {
+          "word": "shared,",
+          "start": 17.401,
+          "end": 17.741,
+          "score": 0.759
+        },
+        {
+          "word": "concrete",
+          "start": 18.181,
+          "end": 18.681,
+          "score": 0.614
+        },
+        {
+          "word": "understanding",
+          "start": 18.721,
+          "end": 19.301,
+          "score": 0.797
+        },
+        {
+          "word": "of",
+          "start": 19.381,
+          "end": 19.461,
+          "score": 0.861
+        },
+        {
+          "word": "what's",
+          "start": 19.561,
+          "end": 19.881,
+          "score": 0.796
+        },
+        {
+          "word": "actually",
+          "start": 20.041,
+          "end": 20.341,
+          "score": 0.777
+        },
+        {
+          "word": "happening.",
+          "start": 20.401,
+          "end": 20.782,
+          "score": 0.906
+        }
+      ]
+    },
+    {
+      "start": 21.422,
+      "end": 24.262,
+      "text": "I'll ask some guiding questions, and you can take your time answering.",
+      "words": [
+        {
+          "word": "I'll",
+          "start": 21.422,
+          "end": 21.542,
+          "score": 0.684
+        },
+        {
+          "word": "ask",
+          "start": 21.602,
+          "end": 21.762,
+          "score": 0.607
+        },
+        {
+          "word": "some",
+          "start": 21.862,
+          "end": 22.022,
+          "score": 0.815
+        },
+        {
+          "word": "guiding",
+          "start": 22.082,
+          "end": 22.302,
+          "score": 0.772
+        },
+        {
+          "word": "questions,",
+          "start": 22.342,
+          "end": 22.862,
+          "score": 0.748
+        },
+        {
+          "word": "and",
+          "start": 22.902,
+          "end": 22.982,
+          "score": 0.662
+        },
+        {
+          "word": "you",
+          "start": 23.022,
+          "end": 23.102,
+          "score": 0.823
+        },
+        {
+          "word": "can",
+          "start": 23.142,
+          "end": 23.262,
+          "score": 0.803
+        },
+        {
+          "word": "take",
+          "start": 23.282,
+          "end": 23.442,
+          "score": 0.784
+        },
+        {
+          "word": "your",
+          "start": 23.482,
+          "end": 23.582,
+          "score": 0.852
+        },
+        {
+          "word": "time",
+          "start": 23.622,
+          "end": 23.822,
+          "score": 0.776
+        },
+        {
+          "word": "answering.",
+          "start": 23.902,
+          "end": 24.262,
+          "score": 0.906
+        }
+      ]
+    },
+    {
+      "start": 24.522,
+      "end": 25.222,
+      "text": "How does that sound?",
+      "words": [
+        {
+          "word": "How",
+          "start": 24.522,
+          "end": 24.642,
+          "score": 0.862
+        },
+        {
+          "word": "does",
+          "start": 24.682,
+          "end": 24.762,
+          "score": 0.928
+        },
+        {
+          "word": "that",
+          "start": 24.782,
+          "end": 24.922,
+          "score": 0.787
+        },
+        {
+          "word": "sound?",
+          "start": 24.962,
+          "end": 25.222,
+          "score": 0.669
+        }
+      ]
+    },
+    {
+      "start": 26.882,
+      "end": 27.622,
+      "text": "That sounds good.",
+      "words": [
+        {
+          "word": "That",
+          "start": 26.882,
+          "end": 27.062,
+          "score": 0.863
+        },
+        {
+          "word": "sounds",
+          "start": 27.082,
+          "end": 27.322,
+          "score": 0.753
+        },
+        {
+          "word": "good.",
+          "start": 27.382,
+          "end": 27.622,
+          "score": 0.814
+        }
+      ]
+    },
+    {
+      "start": 28.042,
+      "end": 32.162,
+      "text": "Honestly, it might actually help a lot because right now everything does feel a bit overwhelming.",
+      "words": [
+        {
+          "word": "Honestly,",
+          "start": 28.042,
+          "end": 28.522,
+          "score": 0.755
+        },
+        {
+          "word": "it",
+          "start": 28.662,
+          "end": 28.742,
+          "score": 0.649
+        },
+        {
+          "word": "might",
+          "start": 28.782,
+          "end": 28.922,
+          "score": 0.174
+        },
+        {
+          "word": "actually",
+          "start": 28.942,
+          "end": 29.202,
+          "score": 0.435
+        },
+        {
+          "word": "help",
+          "start": 29.242,
+          "end": 29.422,
+          "score": 0.639
+        },
+        {
+          "word": "a",
+          "start": 29.442,
+          "end": 29.482,
+          "score": 0.441
+        },
+        {
+          "word": "lot",
+          "start": 29.502,
+          "end": 29.662,
+          "score": 0.825
+        },
+        {
+          "word": "because",
+          "start": 29.862,
+          "end": 30.082,
+          "score": 0.767
+        },
+        {
+          "word": "right",
+          "start": 30.142,
+          "end": 30.302,
+          "score": 0.402
+        },
+        {
+          "word": "now",
+          "start": 30.322,
+          "end": 30.482,
+          "score": 0.837
+        },
+        {
+          "word": "everything",
+          "start": 30.562,
+          "end": 30.882,
+          "score": 0.704
+        },
+        {
+          "word": "does",
+          "start": 30.962,
+          "end": 31.122,
+          "score": 0.544
+        },
+        {
+          "word": "feel",
+          "start": 31.162,
+          "end": 31.342,
+          "score": 0.545
+        },
+        {
+          "word": "a",
+          "start": 31.362,
+          "end": 31.382,
+          "score": 0.509
+        },
+        {
+          "word": "bit",
+          "start": 31.422,
+          "end": 31.542,
+          "score": 0.659
+        },
+        {
+          "word": "overwhelming.",
+          "start": 31.622,
+          "end": 32.162,
+          "score": 0.909
+        }
+      ]
+    },
+    {
+      "start": 33.682,
+      "end": 34.303,
+      "text": "That makes sense.",
+      "words": [
+        {
+          "word": "That",
+          "start": 33.682,
+          "end": 33.842,
+          "score": 0.607
+        },
+        {
+          "word": "makes",
+          "start": 33.882,
+          "end": 34.062,
+          "score": 0.109
+        },
+        {
+          "word": "sense.",
+          "start": 34.082,
+          "end": 34.303,
+          "score": 0.765
+        }
+      ]
+    },
+    {
+      "start": 34.743,
+      "end": 39.823,
+      "text": "When things feel overwhelming, breaking them into clearer pieces can make them feel more manageable.",
+      "words": [
+        {
+          "word": "When",
+          "start": 34.743,
+          "end": 34.923,
+          "score": 0.62
+        },
+        {
+          "word": "things",
+          "start": 35.083,
+          "end": 35.343,
+          "score": 0.77
+        },
+        {
+          "word": "feel",
+          "start": 35.423,
+          "end": 35.623,
+          "score": 0.853
+        },
+        {
+          "word": "overwhelming,",
+          "start": 35.683,
+          "end": 36.263,
+          "score": 0.719
+        },
+        {
+          "word": "breaking",
+          "start": 36.323,
+          "end": 36.603,
+          "score": 0.656
+        },
+        {
+          "word": "them",
+          "start": 36.623,
+          "end": 36.823,
+          "score": 0.639
+        },
+        {
+          "word": "into",
+          "start": 36.923,
+          "end": 37.303,
+          "score": 0.832
+        },
+        {
+          "word": "clearer",
+          "start": 37.383,
+          "end": 37.623,
+          "score": 0.76
+        },
+        {
+          "word": "pieces",
+          "start": 37.743,
+          "end": 38.103,
+          "score": 0.628
+        },
+        {
+          "word": "can",
+          "start": 38.163,
+          "end": 38.283,
+          "score": 0.938
+        },
+        {
+          "word": "make",
+          "start": 38.323,
+          "end": 38.443,
+          "score": 0.78
+        },
+        {
+          "word": "them",
+          "start": 38.483,
+          "end": 38.643,
+          "score": 0.759
+        },
+        {
+          "word": "feel",
+          "start": 38.703,
+          "end": 39.043,
+          "score": 0.846
+        },
+        {
+          "word": "more",
+          "start": 39.163,
+          "end": 39.303,
+          "score": 0.822
+        },
+        {
+          "word": "manageable.",
+          "start": 39.343,
+          "end": 39.823,
+          "score": 0.692
+        }
+      ]
+    },
+    {
+      "start": 40.403,
+      "end": 46.623,
+      "text": "To start us off, in one or two sentences, what problem are you hoping we can define together today?",
+      "words": [
+        {
+          "word": "To",
+          "start": 40.403,
+          "end": 40.503,
+          "score": 0.851
+        },
+        {
+          "word": "start",
+          "start": 40.523,
+          "end": 40.723,
+          "score": 0.748
+        },
+        {
+          "word": "us",
+          "start": 40.763,
+          "end": 40.843,
+          "score": 0.548
+        },
+        {
+          "word": "off,",
+          "start": 40.963,
+          "end": 41.403,
+          "score": 0.804
+        },
+        {
+          "word": "in",
+          "start": 41.423,
+          "end": 41.523,
+          "score": 0.933
+        },
+        {
+          "word": "one",
+          "start": 41.723,
+          "end": 41.923,
+          "score": 0.72
+        },
+        {
+          "word": "or",
+          "start": 42.003,
+          "end": 42.083,
+          "score": 0.622
+        },
+        {
+          "word": "two",
+          "start": 42.163,
+          "end": 42.463,
+          "score": 0.908
+        },
+        {
+          "word": "sentences,",
+          "start": 42.923,
+          "end": 43.543,
+          "score": 0.862
+        },
+        {
+          "word": "what",
+          "start": 43.683,
+          "end": 43.863,
+          "score": 0.798
+        },
+        {
+          "word": "problem",
+          "start": 44.223,
+          "end": 44.683,
+          "score": 0.822
+        },
+        {
+          "word": "are",
+          "start": 44.763,
+          "end": 44.843,
+          "score": 0.888
+        },
+        {
+          "word": "you",
+          "start": 44.883,
+          "end": 44.983,
+          "score": 0.879
+        },
+        {
+          "word": "hoping",
+          "start": 45.023,
+          "end": 45.303,
+          "score": 0.712
+        },
+        {
+          "word": "we",
+          "start": 45.343,
+          "end": 45.423,
+          "score": 0.889
+        },
+        {
+          "word": "can",
+          "start": 45.463,
+          "end": 45.583,
+          "score": 0.786
+        },
+        {
+          "word": "define",
+          "start": 45.623,
+          "end": 45.963,
+          "score": 0.876
+        },
+        {
+          "word": "together",
+          "start": 45.983,
+          "end": 46.323,
+          "score": 0.542
+        },
+        {
+          "word": "today?",
+          "start": 46.363,
+          "end": 46.623,
+          "score": 0.827
+        }
+      ]
+    },
+    {
+      "start": 47.783,
+      "end": 53.164,
+      "text": "I guess the main problem I'm hoping we can define is whether it’s realistic for me to move my mom into my house.",
+      "words": [
+        {
+          "word": "I",
+          "start": 47.783,
+          "end": 47.843,
+          "score": 0.994
+        },
+        {
+          "word": "guess",
+          "start": 47.883,
+          "end": 48.124,
+          "score": 0.713
+        },
+        {
+          "word": "the",
+          "start": 48.224,
+          "end": 48.344,
+          "score": 0.748
+        },
+        {
+          "word": "main",
+          "start": 48.364,
+          "end": 48.544,
+          "score": 0.398
+        },
+        {
+          "word": "problem",
+          "start": 48.584,
+          "end": 48.984,
+          "score": 0.493
+        },
+        {
+          "word": "I'm",
+          "start": 49.144,
+          "end": 49.244,
+          "score": 0.639
+        },
+        {
+          "word": "hoping",
+          "start": 49.284,
+          "end": 49.584,
+          "score": 0.606
+        },
+        {
+          "word": "we",
+          "start": 49.624,
+          "end": 49.724,
+          "score": 0.534
+        },
+        {
+          "word": "can",
+          "start": 49.744,
+          "end": 49.884,
+          "score": 0.811
+        },
+        {
+          "word": "define",
+          "start": 49.904,
+          "end": 50.324,
+          "score": 0.614
+        },
+        {
+          "word": "is",
+          "start": 50.584,
+          "end": 50.724,
+          "score": 0.796
+        },
+        {
+          "word": "whether",
+          "start": 50.804,
+          "end": 51.004,
+          "score": 0.757
+        },
+        {
+          "word": "it’s",
+          "start": 51.084,
+          "end": 51.164,
+          "score": 0.566
+        },
+        {
+          "word": "realistic",
+          "start": 51.244,
+          "end": 51.704,
+          "score": 0.607
+        },
+        {
+          "word": "for",
+          "start": 51.744,
+          "end": 51.844,
+          "score": 0.908
+        },
+        {
+          "word": "me",
+          "start": 51.864,
+          "end": 51.944,
+          "score": 0.8
+        },
+        {
+          "word": "to",
+          "start": 51.984,
+          "end": 52.044,
+          "score": 0.742
+        },
+        {
+          "word": "move",
+          "start": 52.084,
+          "end": 52.224,
+          "score": 0.452
+        },
+        {
+          "word": "my",
+          "start": 52.284,
+          "end": 52.384,
+          "score": 0.919
+        },
+        {
+          "word": "mom",
+          "start": 52.424,
+          "end": 52.544,
+          "score": 0.478
+        },
+        {
+          "word": "into",
+          "start": 52.564,
+          "end": 52.744,
+          "score": 0.786
+        },
+        {
+          "word": "my",
+          "start": 52.784,
+          "end": 52.884,
+          "score": 0.952
+        },
+        {
+          "word": "house.",
+          "start": 52.924,
+          "end": 53.164,
+          "score": 0.802
+        }
+      ]
+    },
+    {
+      "start": 53.684,
+      "end": 57.824,
+      "text": "She’s not doing well on her own, and I just need to figure out if that’s even the right step.",
+      "words": [
+        {
+          "word": "She’s",
+          "start": 53.684,
+          "end": 53.844,
+          "score": 0.652
+        },
+        {
+          "word": "not",
+          "start": 53.884,
+          "end": 53.984,
+          "score": 0.811
+        },
+        {
+          "word": "doing",
+          "start": 54.024,
+          "end": 54.204,
+          "score": 0.77
+        },
+        {
+          "word": "well",
+          "start": 54.264,
+          "end": 54.424,
+          "score": 0.605
+        },
+        {
+          "word": "on",
+          "start": 54.444,
+          "end": 54.524,
+          "score": 0.805
+        },
+        {
+          "word": "her",
+          "start": 54.564,
+          "end": 54.924,
+          "score": 0.631
+        },
+        {
+          "word": "own,",
+          "start": 54.944,
+          "end": 55.024,
+          "score": 0.381
+        },
+        {
+          "word": "and",
+          "start": 55.304,
+          "end": 55.564,
+          "score": 0.9
+        },
+        {
+          "word": "I",
+          "start": 55.864,
+          "end": 55.944,
+          "score": 0.958
+        },
+        {
+          "word": "just",
+          "start": 55.964,
+          "end": 56.104,
+          "score": 0.749
+        },
+        {
+          "word": "need",
+          "start": 56.124,
+          "end": 56.244,
+          "score": 0.722
+        },
+        {
+          "word": "to",
+          "start": 56.264,
+          "end": 56.324,
+          "score": 0.83
+        },
+        {
+          "word": "figure",
+          "start": 56.364,
+          "end": 56.584,
+          "score": 0.524
+        },
+        {
+          "word": "out",
+          "start": 56.644,
+          "end": 56.724,
+          "score": 0.685
+        },
+        {
+          "word": "if",
+          "start": 56.784,
+          "end": 56.844,
+          "score": 0.948
+        },
+        {
+          "word": "that’s",
+          "start": 56.884,
+          "end": 57.064,
+          "score": 0.769
+        },
+        {
+          "word": "even",
+          "start": 57.124,
+          "end": 57.284,
+          "score": 0.907
+        },
+        {
+          "word": "the",
+          "start": 57.304,
+          "end": 57.364,
+          "score": 0.704
+        },
+        {
+          "word": "right",
+          "start": 57.404,
+          "end": 57.584,
+          "score": 0.202
+        },
+        {
+          "word": "step.",
+          "start": 57.604,
+          "end": 57.824,
+          "score": 0.721
+        }
+      ]
+    },
+    {
+      "start": 58.864,
+      "end": 66.405,
+      "text": "Okay, so at a high level, the problems about your mother, Linda, living situation and whether moving her into your home is feasible.",
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 58.864,
+          "end": 59.124,
+          "score": 0.562
+        },
+        {
+          "word": "so",
+          "start": 59.424,
+          "end": 59.564,
+          "score": 0.938
+        },
+        {
+          "word": "at",
+          "start": 59.664,
+          "end": 59.744,
+          "score": 0.622
+        },
+        {
+          "word": "a",
+          "start": 59.784,
+          "end": 59.804,
+          "score": 0.545
+        },
+        {
+          "word": "high",
+          "start": 59.864,
+          "end": 59.984,
+          "score": 0.704
+        },
+        {
+          "word": "level,",
+          "start": 60.024,
+          "end": 60.324,
+          "score": 0.737
+        },
+        {
+          "word": "the",
+          "start": 60.344,
+          "end": 60.464,
+          "score": 0.706
+        },
+        {
+          "word": "problems",
+          "start": 60.544,
+          "end": 60.904,
+          "score": 0.792
+        },
+        {
+          "word": "about",
+          "start": 60.984,
+          "end": 61.224,
+          "score": 0.891
+        },
+        {
+          "word": "your",
+          "start": 61.524,
+          "end": 61.665,
+          "score": 0.749
+        },
+        {
+          "word": "mother,",
+          "start": 61.705,
+          "end": 62.025,
+          "score": 0.865
+        },
+        {
+          "word": "Linda,",
+          "start": 62.205,
+          "end": 62.625,
+          "score": 0.882
+        },
+        {
+          "word": "living",
+          "start": 62.725,
+          "end": 62.985,
+          "score": 0.635
+        },
+        {
+          "word": "situation",
+          "start": 63.025,
+          "end": 63.625,
+          "score": 0.762
+        },
+        {
+          "word": "and",
+          "start": 63.685,
+          "end": 63.745,
+          "score": 0.865
+        },
+        {
+          "word": "whether",
+          "start": 63.785,
+          "end": 64.105,
+          "score": 0.737
+        },
+        {
+          "word": "moving",
+          "start": 64.505,
+          "end": 64.745,
+          "score": 0.66
+        },
+        {
+          "word": "her",
+          "start": 64.785,
+          "end": 64.885,
+          "score": 0.759
+        },
+        {
+          "word": "into",
+          "start": 64.965,
+          "end": 65.385,
+          "score": 0.837
+        },
+        {
+          "word": "your",
+          "start": 65.485,
+          "end": 65.625,
+          "score": 0.796
+        },
+        {
+          "word": "home",
+          "start": 65.665,
+          "end": 65.825,
+          "score": 0.78
+        },
+        {
+          "word": "is",
+          "start": 65.865,
+          "end": 65.925,
+          "score": 0.611
+        },
+        {
+          "word": "feasible.",
+          "start": 66.005,
+          "end": 66.405,
+          "score": 0.797
+        }
+      ]
+    },
+    {
+      "start": 67.085,
+      "end": 68.785,
+      "text": "Let's slow that down and look at the facts.",
+      "words": [
+        {
+          "word": "Let's",
+          "start": 67.085,
+          "end": 67.285,
+          "score": 0.701
+        },
+        {
+          "word": "slow",
+          "start": 67.345,
+          "end": 67.485,
+          "score": 0.624
+        },
+        {
+          "word": "that",
+          "start": 67.525,
+          "end": 67.665,
+          "score": 0.918
+        },
+        {
+          "word": "down",
+          "start": 67.705,
+          "end": 67.925,
+          "score": 0.867
+        },
+        {
+          "word": "and",
+          "start": 67.985,
+          "end": 68.045,
+          "score": 0.555
+        },
+        {
+          "word": "look",
+          "start": 68.085,
+          "end": 68.205,
+          "score": 0.793
+        },
+        {
+          "word": "at",
+          "start": 68.245,
+          "end": 68.285,
+          "score": 0.626
+        },
+        {
+          "word": "the",
+          "start": 68.325,
+          "end": 68.405,
+          "score": 0.751
+        },
+        {
+          "word": "facts.",
+          "start": 68.465,
+          "end": 68.785,
+          "score": 0.936
+        }
+      ]
+    },
+    {
+      "start": 69.425,
+      "end": 72.765,
+      "text": "First, who are the main people involved in this situation?",
+      "words": [
+        {
+          "word": "First,",
+          "start": 69.425,
+          "end": 69.725,
+          "score": 0.877
+        },
+        {
+          "word": "who",
+          "start": 70.485,
+          "end": 70.585,
+          "score": 0.92
+        },
+        {
+          "word": "are",
+          "start": 70.605,
+          "end": 70.665,
+          "score": 0.322
+        },
+        {
+          "word": "the",
+          "start": 70.685,
+          "end": 70.785,
+          "score": 0.692
+        },
+        {
+          "word": "main",
+          "start": 70.825,
+          "end": 71.045,
+          "score": 0.638
+        },
+        {
+          "word": "people",
+          "start": 71.085,
+          "end": 71.445,
+          "score": 0.718
+        },
+        {
+          "word": "involved",
+          "start": 71.525,
+          "end": 71.945,
+          "score": 0.812
+        },
+        {
+          "word": "in",
+          "start": 72.005,
+          "end": 72.065,
+          "score": 0.913
+        },
+        {
+          "word": "this",
+          "start": 72.085,
+          "end": 72.185,
+          "score": 0.383
+        },
+        {
+          "word": "situation?",
+          "start": 72.225,
+          "end": 72.765,
+          "score": 0.903
+        }
+      ]
+    },
+    {
+      "start": 74.665,
+      "end": 80.166,
+      "text": "Well, it’s mainly me, my mom—her name is Linda—and then my partner, Alex, who lives with me.",
+      "words": [
+        {
+          "word": "Well,",
+          "start": 74.665,
+          "end": 74.945,
+          "score": 0.906
+        },
+        {
+          "word": "it’s",
+          "start": 75.105,
+          "end": 75.225,
+          "score": 0.745
+        },
+        {
+          "word": "mainly",
+          "start": 75.285,
+          "end": 75.586,
+          "score": 0.629
+        },
+        {
+          "word": "me,",
+          "start": 75.626,
+          "end": 75.846,
+          "score": 0.895
+        },
+        {
+          "word": "my",
+          "start": 76.166,
+          "end": 76.286,
+          "score": 0.895
+        },
+        {
+          "word": "mom—her",
+          "start": 76.326,
+          "end": 76.966,
+          "score": 0.561
+        },
+        {
+          "word": "name",
+          "start": 76.986,
+          "end": 77.106,
+          "score": 0.378
+        },
+        {
+          "word": "is",
+          "start": 77.126,
+          "end": 77.206,
+          "score": 0.536
+        },
+        {
+          "word": "Linda—and",
+          "start": 77.246,
+          "end": 78.286,
+          "score": 0.694
+        },
+        {
+          "word": "then",
+          "start": 78.326,
+          "end": 78.426,
+          "score": 0.596
+        },
+        {
+          "word": "my",
+          "start": 78.446,
+          "end": 78.566,
+          "score": 0.68
+        },
+        {
+          "word": "partner,",
+          "start": 78.586,
+          "end": 79.146,
+          "score": 0.648
+        },
+        {
+          "word": "Alex,",
+          "start": 79.166,
+          "end": 79.486,
+          "score": 0.735
+        },
+        {
+          "word": "who",
+          "start": 79.506,
+          "end": 79.606,
+          "score": 0.717
+        },
+        {
+          "word": "lives",
+          "start": 79.646,
+          "end": 79.786,
+          "score": 0.687
+        },
+        {
+          "word": "with",
+          "start": 79.826,
+          "end": 79.946,
+          "score": 0.72
+        },
+        {
+          "word": "me.",
+          "start": 79.986,
+          "end": 80.166,
+          "score": 0.805
+        }
+      ]
+    },
+    {
+      "start": 80.806,
+      "end": 86.486,
+      "text": "And I also have a sister, Megan, who’s out of state but definitely involved in the decision-making.",
+      "words": [
+        {
+          "word": "And",
+          "start": 80.806,
+          "end": 80.906,
+          "score": 0.646
+        },
+        {
+          "word": "I",
+          "start": 80.966,
+          "end": 81.006,
+          "score": 0.503
+        },
+        {
+          "word": "also",
+          "start": 81.086,
+          "end": 81.226,
+          "score": 0.441
+        },
+        {
+          "word": "have",
+          "start": 81.246,
+          "end": 81.346,
+          "score": 0.882
+        },
+        {
+          "word": "a",
+          "start": 81.386,
+          "end": 81.446,
+          "score": 0.534
+        },
+        {
+          "word": "sister,",
+          "start": 81.486,
+          "end": 81.906,
+          "score": 0.749
+        },
+        {
+          "word": "Megan,",
+          "start": 82.006,
+          "end": 82.426,
+          "score": 0.812
+        },
+        {
+          "word": "who’s",
+          "start": 82.466,
+          "end": 82.726,
+          "score": 0.33
+        },
+        {
+          "word": "out",
+          "start": 82.886,
+          "end": 83.006,
+          "score": 0.813
+        },
+        {
+          "word": "of",
+          "start": 83.086,
+          "end": 83.146,
+          "score": 0.877
+        },
+        {
+          "word": "state",
+          "start": 83.186,
+          "end": 83.466,
+          "score": 0.64
+        },
+        {
+          "word": "but",
+          "start": 83.546,
+          "end": 83.686,
+          "score": 0.928
+        },
+        {
+          "word": "definitely",
+          "start": 83.826,
+          "end": 84.326,
+          "score": 0.624
+        },
+        {
+          "word": "involved",
+          "start": 84.366,
+          "end": 84.706,
+          "score": 0.693
+        },
+        {
+          "word": "in",
+          "start": 84.766,
+          "end": 84.806,
+          "score": 0.883
+        },
+        {
+          "word": "the",
+          "start": 84.846,
+          "end": 84.906,
+          "score": 0.879
+        },
+        {
+          "word": "decision-making.",
+          "start": 84.946,
+          "end": 86.486,
+          "score": 0.717
+        }
+      ]
+    },
+    {
+      "start": 87.306,
+      "end": 90.467,
+      "text": "You, your mother Linda, your partner Alex, and your sister Megan.",
+      "words": [
+        {
+          "word": "You,",
+          "start": 87.306,
+          "end": 87.486,
+          "score": 0.748
+        },
+        {
+          "word": "your",
+          "start": 87.606,
+          "end": 87.746,
+          "score": 0.734
+        },
+        {
+          "word": "mother",
+          "start": 87.766,
+          "end": 87.946,
+          "score": 0.715
+        },
+        {
+          "word": "Linda,",
+          "start": 87.986,
+          "end": 88.406,
+          "score": 0.84
+        },
+        {
+          "word": "your",
+          "start": 88.506,
+          "end": 88.606,
+          "score": 0.828
+        },
+        {
+          "word": "partner",
+          "start": 88.646,
+          "end": 88.926,
+          "score": 0.823
+        },
+        {
+          "word": "Alex,",
+          "start": 89.047,
+          "end": 89.387,
+          "score": 0.815
+        },
+        {
+          "word": "and",
+          "start": 89.647,
+          "end": 89.707,
+          "score": 0.907
+        },
+        {
+          "word": "your",
+          "start": 89.747,
+          "end": 89.867,
+          "score": 0.873
+        },
+        {
+          "word": "sister",
+          "start": 89.887,
+          "end": 90.167,
+          "score": 0.679
+        },
+        {
+          "word": "Megan.",
+          "start": 90.187,
+          "end": 90.467,
+          "score": 0.755
+        }
+      ]
+    },
+    {
+      "start": 91.007,
+      "end": 92.467,
+      "text": "Let's focus for a moment on your mom.",
+      "words": [
+        {
+          "word": "Let's",
+          "start": 91.007,
+          "end": 91.187,
+          "score": 0.769
+        },
+        {
+          "word": "focus",
+          "start": 91.247,
+          "end": 91.547,
+          "score": 0.672
+        },
+        {
+          "word": "for",
+          "start": 91.587,
+          "end": 91.687,
+          "score": 0.907
+        },
+        {
+          "word": "a",
+          "start": 91.707,
+          "end": 91.727,
+          "score": 0.933
+        },
+        {
+          "word": "moment",
+          "start": 91.747,
+          "end": 91.987,
+          "score": 0.817
+        },
+        {
+          "word": "on",
+          "start": 92.047,
+          "end": 92.087,
+          "score": 0.965
+        },
+        {
+          "word": "your",
+          "start": 92.127,
+          "end": 92.247,
+          "score": 0.734
+        },
+        {
+          "word": "mom.",
+          "start": 92.267,
+          "end": 92.467,
+          "score": 0.781
+        }
+      ]
+    },
+    {
+      "start": 93.227,
+      "end": 95.907,
+      "text": "What's going on for her right now that makes us feel urgent?",
+      "words": [
+        {
+          "word": "What's",
+          "start": 93.227,
+          "end": 93.407,
+          "score": 0.612
+        },
+        {
+          "word": "going",
+          "start": 93.467,
+          "end": 93.647,
+          "score": 0.64
+        },
+        {
+          "word": "on",
+          "start": 93.707,
+          "end": 93.807,
+          "score": 0.788
+        },
+        {
+          "word": "for",
+          "start": 93.847,
+          "end": 93.927,
+          "score": 0.917
+        },
+        {
+          "word": "her",
+          "start": 93.967,
+          "end": 94.047,
+          "score": 0.698
+        },
+        {
+          "word": "right",
+          "start": 94.087,
+          "end": 94.267,
+          "score": 0.603
+        },
+        {
+          "word": "now",
+          "start": 94.287,
+          "end": 94.487,
+          "score": 0.702
+        },
+        {
+          "word": "that",
+          "start": 94.527,
+          "end": 94.647,
+          "score": 0.57
+        },
+        {
+          "word": "makes",
+          "start": 94.727,
+          "end": 94.907,
+          "score": 0.596
+        },
+        {
+          "word": "us",
+          "start": 94.987,
+          "end": 95.067,
+          "score": 0.605
+        },
+        {
+          "word": "feel",
+          "start": 95.167,
+          "end": 95.507,
+          "score": 0.795
+        },
+        {
+          "word": "urgent?",
+          "start": 95.647,
+          "end": 95.907,
+          "score": 0.724
+        }
+      ]
+    },
+    {
+      "start": 99.247,
+      "end": 104.328,
+      "text": "Well, Linda’s 74 and she’s still mentally sharp, but physically she’s been declining.",
+      "words": [
+        {
+          "word": "Well,",
+          "start": 99.247,
+          "end": 99.607,
+          "score": 0.71
+        },
+        {
+          "word": "Linda’s",
+          "start": 99.707,
+          "end": 100.047,
+          "score": 0.695
+        },
+        {
+          "word": "74",
+          "start": 100.067,
+          "end": 100.307,
+          "score": 0.62
+        },
+        {
+          "word": "and",
+          "start": 100.847,
+          "end": 100.987,
+          "score": 0.783
+        },
+        {
+          "word": "she’s",
+          "start": 101.047,
+          "end": 101.247,
+          "score": 0.862
+        },
+        {
+          "word": "still",
+          "start": 101.287,
+          "end": 101.507,
+          "score": 0.749
+        },
+        {
+          "word": "mentally",
+          "start": 101.567,
+          "end": 101.907,
+          "score": 0.684
+        },
+        {
+          "word": "sharp,",
+          "start": 101.947,
+          "end": 102.267,
+          "score": 0.709
+        },
+        {
+          "word": "but",
+          "start": 102.788,
+          "end": 102.928,
+          "score": 0.909
+        },
+        {
+          "word": "physically",
+          "start": 103.028,
+          "end": 103.468,
+          "score": 0.809
+        },
+        {
+          "word": "she’s",
+          "start": 103.488,
+          "end": 103.648,
+          "score": 0.841
+        },
+        {
+          "word": "been",
+          "start": 103.688,
+          "end": 103.808,
+          "score": 0.795
+        },
+        {
+          "word": "declining.",
+          "start": 103.848,
+          "end": 104.328,
+          "score": 0.881
+        }
+      ]
+    },
+    {
+      "start": 104.768,
+      "end": 109.188,
+      "text": "She’s had a couple of falls in the last six months, and that’s really what’s making it feel urgent.",
+      "words": [
+        {
+          "word": "She’s",
+          "start": 104.768,
+          "end": 104.928,
+          "score": 0.748
+        },
+        {
+          "word": "had",
+          "start": 104.988,
+          "end": 105.068,
+          "score": 0.692
+        },
+        {
+          "word": "a",
+          "start": 105.128,
+          "end": 105.148,
+          "score": 0.751
+        },
+        {
+          "word": "couple",
+          "start": 105.188,
+          "end": 105.408,
+          "score": 0.691
+        },
+        {
+          "word": "of",
+          "start": 105.448,
+          "end": 105.508,
+          "score": 0.728
+        },
+        {
+          "word": "falls",
+          "start": 105.548,
+          "end": 105.908,
+          "score": 0.55
+        },
+        {
+          "word": "in",
+          "start": 105.968,
+          "end": 106.048,
+          "score": 0.594
+        },
+        {
+          "word": "the",
+          "start": 106.068,
+          "end": 106.168,
+          "score": 0.285
+        },
+        {
+          "word": "last",
+          "start": 106.188,
+          "end": 106.328,
+          "score": 0.347
+        },
+        {
+          "word": "six",
+          "start": 106.368,
+          "end": 106.548,
+          "score": 0.792
+        },
+        {
+          "word": "months,",
+          "start": 106.608,
+          "end": 106.928,
+          "score": 0.642
+        },
+        {
+          "word": "and",
+          "start": 107.148,
+          "end": 107.288,
+          "score": 0.826
+        },
+        {
+          "word": "that’s",
+          "start": 107.328,
+          "end": 107.568,
+          "score": 0.681
+        },
+        {
+          "word": "really",
+          "start": 107.748,
+          "end": 107.968,
+          "score": 0.457
+        },
+        {
+          "word": "what’s",
+          "start": 108.008,
+          "end": 108.168,
+          "score": 0.592
+        },
+        {
+          "word": "making",
+          "start": 108.228,
+          "end": 108.488,
+          "score": 0.698
+        },
+        {
+          "word": "it",
+          "start": 108.548,
+          "end": 108.588,
+          "score": 0.32
+        },
+        {
+          "word": "feel",
+          "start": 108.628,
+          "end": 108.788,
+          "score": 0.436
+        },
+        {
+          "word": "urgent.",
+          "start": 108.908,
+          "end": 109.188,
+          "score": 0.733
+        }
+      ]
+    },
+    {
+      "start": 111.768,
+      "end": 115.948,
+      "text": "So she's physically declining, recent falls, and what about the doctor?",
+      "words": [
+        {
+          "word": "So",
+          "start": 111.768,
+          "end": 111.888,
+          "score": 0.897
+        },
+        {
+          "word": "she's",
+          "start": 112.028,
+          "end": 112.168,
+          "score": 0.421
+        },
+        {
+          "word": "physically",
+          "start": 112.208,
+          "end": 112.568,
+          "score": 0.806
+        },
+        {
+          "word": "declining,",
+          "start": 112.608,
+          "end": 113.128,
+          "score": 0.787
+        },
+        {
+          "word": "recent",
+          "start": 113.268,
+          "end": 113.588,
+          "score": 0.816
+        },
+        {
+          "word": "falls,",
+          "start": 113.648,
+          "end": 114.008,
+          "score": 0.891
+        },
+        {
+          "word": "and",
+          "start": 114.568,
+          "end": 114.688,
+          "score": 0.796
+        },
+        {
+          "word": "what",
+          "start": 115.088,
+          "end": 115.208,
+          "score": 0.823
+        },
+        {
+          "word": "about",
+          "start": 115.248,
+          "end": 115.468,
+          "score": 0.836
+        },
+        {
+          "word": "the",
+          "start": 115.508,
+          "end": 115.588,
+          "score": 0.806
+        },
+        {
+          "word": "doctor?",
+          "start": 115.628,
+          "end": 115.948,
+          "score": 0.884
+        }
+      ]
+    },
+    {
+      "start": 118.869,
+      "end": 119.649,
+      "text": "Yeah, exactly.",
+      "words": [
+        {
+          "word": "Yeah,",
+          "start": 118.869,
+          "end": 119.089,
+          "score": 0.45
+        },
+        {
+          "word": "exactly.",
+          "start": 119.109,
+          "end": 119.649,
+          "score": 0.942
+        }
+      ]
+    },
+    {
+      "start": 119.889,
+      "end": 127.109,
+      "text": "And her primary care doctor, Dr. Susan Patel, has been telling us she’s at a higher risk for a serious injury if we don’t make some changes soon.",
+      "words": [
+        {
+          "word": "And",
+          "start": 119.889,
+          "end": 120.009,
+          "score": 0.85
+        },
+        {
+          "word": "her",
+          "start": 120.129,
+          "end": 120.269,
+          "score": 0.623
+        },
+        {
+          "word": "primary",
+          "start": 120.309,
+          "end": 120.649,
+          "score": 0.687
+        },
+        {
+          "word": "care",
+          "start": 120.689,
+          "end": 120.849,
+          "score": 0.407
+        },
+        {
+          "word": "doctor,",
+          "start": 120.869,
+          "end": 121.449,
+          "score": 0.445
+        },
+        {
+          "word": "Dr.",
+          "start": 121.489,
+          "end": 121.589,
+          "score": 0.45
+        },
+        {
+          "word": "Susan",
+          "start": 121.609,
+          "end": 121.869,
+          "score": 0.491
+        },
+        {
+          "word": "Patel,",
+          "start": 121.889,
+          "end": 122.349,
+          "score": 0.753
+        },
+        {
+          "word": "has",
+          "start": 122.569,
+          "end": 122.689,
+          "score": 0.791
+        },
+        {
+          "word": "been",
+          "start": 122.729,
+          "end": 122.849,
+          "score": 0.816
+        },
+        {
+          "word": "telling",
+          "start": 122.889,
+          "end": 123.109,
+          "score": 0.745
+        },
+        {
+          "word": "us",
+          "start": 123.149,
+          "end": 123.249,
+          "score": 0.735
+        },
+        {
+          "word": "she’s",
+          "start": 123.309,
+          "end": 123.529,
+          "score": 0.651
+        },
+        {
+          "word": "at",
+          "start": 123.609,
+          "end": 123.689,
+          "score": 0.762
+        },
+        {
+          "word": "a",
+          "start": 123.729,
+          "end": 123.749,
+          "score": 0.91
+        },
+        {
+          "word": "higher",
+          "start": 123.849,
+          "end": 124.109,
+          "score": 0.409
+        },
+        {
+          "word": "risk",
+          "start": 124.169,
+          "end": 124.469,
+          "score": 0.855
+        },
+        {
+          "word": "for",
+          "start": 124.529,
+          "end": 124.649,
+          "score": 0.821
+        },
+        {
+          "word": "a",
+          "start": 124.689,
+          "end": 124.709,
+          "score": 0.826
+        },
+        {
+          "word": "serious",
+          "start": 124.769,
+          "end": 125.069,
+          "score": 0.723
+        },
+        {
+          "word": "injury",
+          "start": 125.149,
+          "end": 125.449,
+          "score": 0.69
+        },
+        {
+          "word": "if",
+          "start": 125.509,
+          "end": 125.569,
+          "score": 0.916
+        },
+        {
+          "word": "we",
+          "start": 125.609,
+          "end": 125.729,
+          "score": 0.601
+        },
+        {
+          "word": "don’t",
+          "start": 125.929,
+          "end": 126.109,
+          "score": 0.456
+        },
+        {
+          "word": "make",
+          "start": 126.149,
+          "end": 126.309,
+          "score": 0.713
+        },
+        {
+          "word": "some",
+          "start": 126.329,
+          "end": 126.449,
+          "score": 0.648
+        },
+        {
+          "word": "changes",
+          "start": 126.489,
+          "end": 126.829,
+          "score": 0.808
+        },
+        {
+          "word": "soon.",
+          "start": 126.869,
+          "end": 127.109,
+          "score": 0.627
+        }
+      ]
+    },
+    {
+      "start": 128.429,
+      "end": 128.809,
+      "text": "Got it.",
+      "words": [
+        {
+          "word": "Got",
+          "start": 128.429,
+          "end": 128.669,
+          "score": 0.841
+        },
+        {
+          "word": "it.",
+          "start": 128.729,
+          "end": 128.809,
+          "score": 0.926
+        }
+      ]
+    },
+    {
+      "start": 129.569,
+      "end": 132.01,
+      "text": "And so, concerns raised by Dr. Patel as well.",
+      "words": [
+        {
+          "word": "And",
+          "start": 129.569,
+          "end": 129.669,
+          "score": 0.864
+        },
+        {
+          "word": "so,",
+          "start": 129.709,
+          "end": 129.949,
+          "score": 0.977
+        },
+        {
+          "word": "concerns",
+          "start": 130.21,
+          "end": 130.55,
+          "score": 0.807
+        },
+        {
+          "word": "raised",
+          "start": 130.61,
+          "end": 130.81,
+          "score": 0.375
+        },
+        {
+          "word": "by",
+          "start": 130.85,
+          "end": 130.97,
+          "score": 0.86
+        },
+        {
+          "word": "Dr.",
+          "start": 131.01,
+          "end": 131.29,
+          "score": 0.444
+        },
+        {
+          "word": "Patel",
+          "start": 131.33,
+          "end": 131.63,
+          "score": 0.706
+        },
+        {
+          "word": "as",
+          "start": 131.67,
+          "end": 131.75,
+          "score": 0.738
+        },
+        {
+          "word": "well.",
+          "start": 131.79,
+          "end": 132.01,
+          "score": 0.899
+        }
+      ]
+    },
+    {
+      "start": 132.23,
+      "end": 134.17,
+      "text": "That helps clarify the risk.",
+      "words": [
+        {
+          "word": "That",
+          "start": 132.23,
+          "end": 132.37,
+          "score": 0.866
+        },
+        {
+          "word": "helps",
+          "start": 132.41,
+          "end": 132.57,
+          "score": 0.858
+        },
+        {
+          "word": "clarify",
+          "start": 132.63,
+          "end": 132.99,
+          "score": 0.765
+        },
+        {
+          "word": "the",
+          "start": 133.01,
+          "end": 133.09,
+          "score": 0.795
+        },
+        {
+          "word": "risk.",
+          "start": 133.13,
+          "end": 134.17,
+          "score": 0.824
+        }
+      ]
+    },
+    {
+      "start": 134.19,
+      "end": 136.85,
+      "text": "Where is your mom currently living and how far away is that from you?",
+      "words": [
+        {
+          "word": "Where",
+          "start": 134.19,
+          "end": 134.39,
+          "score": 0.602
+        },
+        {
+          "word": "is",
+          "start": 134.43,
+          "end": 134.47,
+          "score": 0.768
+        },
+        {
+          "word": "your",
+          "start": 134.51,
+          "end": 134.59,
+          "score": 0.711
+        },
+        {
+          "word": "mom",
+          "start": 134.63,
+          "end": 134.79,
+          "score": 0.684
+        },
+        {
+          "word": "currently",
+          "start": 134.83,
+          "end": 135.13,
+          "score": 0.518
+        },
+        {
+          "word": "living",
+          "start": 135.15,
+          "end": 135.39,
+          "score": 0.632
+        },
+        {
+          "word": "and",
+          "start": 135.43,
+          "end": 135.51,
+          "score": 0.806
+        },
+        {
+          "word": "how",
+          "start": 135.55,
+          "end": 135.71,
+          "score": 0.835
+        },
+        {
+          "word": "far",
+          "start": 135.77,
+          "end": 135.95,
+          "score": 0.797
+        },
+        {
+          "word": "away",
+          "start": 135.99,
+          "end": 136.17,
+          "score": 0.938
+        },
+        {
+          "word": "is",
+          "start": 136.23,
+          "end": 136.29,
+          "score": 0.592
+        },
+        {
+          "word": "that",
+          "start": 136.33,
+          "end": 136.53,
+          "score": 0.784
+        },
+        {
+          "word": "from",
+          "start": 136.55,
+          "end": 136.67,
+          "score": 0.83
+        },
+        {
+          "word": "you?",
+          "start": 136.71,
+          "end": 136.85,
+          "score": 0.967
+        }
+      ]
+    },
+    {
+      "start": 138.31,
+      "end": 141.71,
+      "text": "She’s currently living alone in her house over in Cherry Hill, New Jersey.",
+      "words": [
+        {
+          "word": "She’s",
+          "start": 138.31,
+          "end": 138.57,
+          "score": 0.815
+        },
+        {
+          "word": "currently",
+          "start": 138.63,
+          "end": 138.99,
+          "score": 0.253
+        },
+        {
+          "word": "living",
+          "start": 139.01,
+          "end": 139.19,
+          "score": 0.669
+        },
+        {
+          "word": "alone",
+          "start": 139.23,
+          "end": 139.57,
+          "score": 0.655
+        },
+        {
+          "word": "in",
+          "start": 139.61,
+          "end": 139.67,
+          "score": 0.923
+        },
+        {
+          "word": "her",
+          "start": 139.73,
+          "end": 139.85,
+          "score": 0.577
+        },
+        {
+          "word": "house",
+          "start": 139.89,
+          "end": 140.17,
+          "score": 0.877
+        },
+        {
+          "word": "over",
+          "start": 140.29,
+          "end": 140.51,
+          "score": 0.536
+        },
+        {
+          "word": "in",
+          "start": 140.53,
+          "end": 140.59,
+          "score": 0.652
+        },
+        {
+          "word": "Cherry",
+          "start": 140.63,
+          "end": 140.89,
+          "score": 0.714
+        },
+        {
+          "word": "Hill,",
+          "start": 140.91,
+          "end": 141.11,
+          "score": 0.462
+        },
+        {
+          "word": "New",
+          "start": 141.19,
+          "end": 141.27,
+          "score": 0.263
+        },
+        {
+          "word": "Jersey.",
+          "start": 141.29,
+          "end": 141.71,
+          "score": 0.748
+        }
+      ]
+    },
+    {
+      "start": 142.21,
+      "end": 147.251,
+      "text": "It's about a 45-minute drive from where I am, so not exactly close enough to just drop by easily.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 142.21,
+          "end": 142.31,
+          "score": 0.843
+        },
+        {
+          "word": "about",
+          "start": 142.35,
+          "end": 142.51,
+          "score": 0.742
+        },
+        {
+          "word": "a",
+          "start": 142.55,
+          "end": 142.57,
+          "score": 0.594
+        },
+        {
+          "word": "45-minute",
+          "start": 142.59,
+          "end": 143.27,
+          "score": 0.589
+        },
+        {
+          "word": "drive",
+          "start": 143.29,
+          "end": 143.53,
+          "score": 0.479
+        },
+        {
+          "word": "from",
+          "start": 143.57,
+          "end": 143.69,
+          "score": 0.647
+        },
+        {
+          "word": "where",
+          "start": 143.71,
+          "end": 143.871,
+          "score": 0.709
+        },
+        {
+          "word": "I",
+          "start": 143.951,
+          "end": 144.011,
+          "score": 0.962
+        },
+        {
+          "word": "am,",
+          "start": 144.131,
+          "end": 144.371,
+          "score": 0.775
+        },
+        {
+          "word": "so",
+          "start": 144.411,
+          "end": 144.731,
+          "score": 0.843
+        },
+        {
+          "word": "not",
+          "start": 144.771,
+          "end": 144.891,
+          "score": 0.65
+        },
+        {
+          "word": "exactly",
+          "start": 144.951,
+          "end": 145.431,
+          "score": 0.852
+        },
+        {
+          "word": "close",
+          "start": 145.491,
+          "end": 145.771,
+          "score": 0.569
+        },
+        {
+          "word": "enough",
+          "start": 145.791,
+          "end": 146.011,
+          "score": 0.6
+        },
+        {
+          "word": "to",
+          "start": 146.051,
+          "end": 146.111,
+          "score": 0.871
+        },
+        {
+          "word": "just",
+          "start": 146.151,
+          "end": 146.311,
+          "score": 0.518
+        },
+        {
+          "word": "drop",
+          "start": 146.411,
+          "end": 146.611,
+          "score": 0.591
+        },
+        {
+          "word": "by",
+          "start": 146.651,
+          "end": 146.851,
+          "score": 0.774
+        },
+        {
+          "word": "easily.",
+          "start": 146.891,
+          "end": 147.251,
+          "score": 0.802
+        }
+      ]
+    },
+    {
+      "start": 149.191,
+      "end": 151.671,
+      "text": "That distance makes quick support harder.",
+      "words": [
+        {
+          "word": "That",
+          "start": 149.191,
+          "end": 149.431,
+          "score": 0.908
+        },
+        {
+          "word": "distance",
+          "start": 149.491,
+          "end": 149.931,
+          "score": 0.741
+        },
+        {
+          "word": "makes",
+          "start": 150.431,
+          "end": 150.651,
+          "score": 0.718
+        },
+        {
+          "word": "quick",
+          "start": 150.791,
+          "end": 151.011,
+          "score": 0.825
+        },
+        {
+          "word": "support",
+          "start": 151.071,
+          "end": 151.371,
+          "score": 0.639
+        },
+        {
+          "word": "harder.",
+          "start": 151.411,
+          "end": 151.671,
+          "score": 0.851
+        }
+      ]
+    },
+    {
+      "start": 152.411,
+      "end": 154.111,
+      "text": "Now let's talk about your living situation.",
+      "words": [
+        {
+          "word": "Now",
+          "start": 152.411,
+          "end": 152.511,
+          "score": 0.877
+        },
+        {
+          "word": "let's",
+          "start": 152.551,
+          "end": 152.651,
+          "score": 0.639
+        },
+        {
+          "word": "talk",
+          "start": 152.691,
+          "end": 152.811,
+          "score": 0.554
+        },
+        {
+          "word": "about",
+          "start": 152.871,
+          "end": 153.091,
+          "score": 0.578
+        },
+        {
+          "word": "your",
+          "start": 153.131,
+          "end": 153.231,
+          "score": 0.646
+        },
+        {
+          "word": "living",
+          "start": 153.251,
+          "end": 153.491,
+          "score": 0.765
+        },
+        {
+          "word": "situation.",
+          "start": 153.531,
+          "end": 154.111,
+          "score": 0.912
+        }
+      ]
+    },
+    {
+      "start": 154.191,
+      "end": 155.891,
+      "text": "What does your home look like right now?",
+      "words": [
+        {
+          "word": "What",
+          "start": 154.191,
+          "end": 154.371,
+          "score": 0.944
+        },
+        {
+          "word": "does",
+          "start": 154.471,
+          "end": 154.571,
+          "score": 0.605
+        },
+        {
+          "word": "your",
+          "start": 154.611,
+          "end": 154.711,
+          "score": 0.828
+        },
+        {
+          "word": "home",
+          "start": 154.751,
+          "end": 154.851,
+          "score": 0.725
+        },
+        {
+          "word": "look",
+          "start": 154.871,
+          "end": 155.051,
+          "score": 0.702
+        },
+        {
+          "word": "like",
+          "start": 155.091,
+          "end": 155.251,
+          "score": 0.65
+        },
+        {
+          "word": "right",
+          "start": 155.531,
+          "end": 155.691,
+          "score": 0.596
+        },
+        {
+          "word": "now?",
+          "start": 155.731,
+          "end": 155.891,
+          "score": 0.951
+        }
+      ]
+    },
+    {
+      "start": 157.251,
+      "end": 157.752,
+      "text": "Sure.",
+      "words": [
+        {
+          "word": "Sure.",
+          "start": 157.251,
+          "end": 157.752,
+          "score": 0.682
+        }
+      ]
+    },
+    {
+      "start": 157.772,
+      "end": 161.812,
+      "text": "So right now, my partner Alex and I have a three-bedroom house in West Philadelphia.",
+      "words": [
+        {
+          "word": "So",
+          "start": 157.772,
+          "end": 158.092,
+          "score": 0.809
+        },
+        {
+          "word": "right",
+          "start": 158.152,
+          "end": 158.312,
+          "score": 0.495
+        },
+        {
+          "word": "now,",
+          "start": 158.352,
+          "end": 158.592,
+          "score": 0.836
+        },
+        {
+          "word": "my",
+          "start": 158.612,
+          "end": 158.732,
+          "score": 0.821
+        },
+        {
+          "word": "partner",
+          "start": 158.752,
+          "end": 159.012,
+          "score": 0.301
+        },
+        {
+          "word": "Alex",
+          "start": 159.072,
+          "end": 159.312,
+          "score": 0.722
+        },
+        {
+          "word": "and",
+          "start": 159.352,
+          "end": 159.432,
+          "score": 0.813
+        },
+        {
+          "word": "I",
+          "start": 159.492,
+          "end": 159.552,
+          "score": 0.88
+        },
+        {
+          "word": "have",
+          "start": 159.592,
+          "end": 159.692,
+          "score": 0.63
+        },
+        {
+          "word": "a",
+          "start": 159.792,
+          "end": 159.912,
+          "score": 0.763
+        },
+        {
+          "word": "three-bedroom",
+          "start": 159.952,
+          "end": 160.452,
+          "score": 0.581
+        },
+        {
+          "word": "house",
+          "start": 160.492,
+          "end": 160.792,
+          "score": 0.727
+        },
+        {
+          "word": "in",
+          "start": 160.912,
+          "end": 160.992,
+          "score": 0.624
+        },
+        {
+          "word": "West",
+          "start": 161.032,
+          "end": 161.172,
+          "score": 0.398
+        },
+        {
+          "word": "Philadelphia.",
+          "start": 161.212,
+          "end": 161.812,
+          "score": 0.697
+        }
+      ]
+    },
+    {
+      "start": 162.512,
+      "end": 167.972,
+      "text": "We use one bedroom for ourselves, one as my office, and the third is kind of a storage-slash-guest room.",
+      "words": [
+        {
+          "word": "We",
+          "start": 162.512,
+          "end": 162.872,
+          "score": 0.8
+        },
+        {
+          "word": "use",
+          "start": 162.892,
+          "end": 162.972,
+          "score": 0.624
+        },
+        {
+          "word": "one",
+          "start": 163.072,
+          "end": 163.172,
+          "score": 0.437
+        },
+        {
+          "word": "bedroom",
+          "start": 163.192,
+          "end": 163.472,
+          "score": 0.48
+        },
+        {
+          "word": "for",
+          "start": 163.492,
+          "end": 163.592,
+          "score": 0.348
+        },
+        {
+          "word": "ourselves,",
+          "start": 163.612,
+          "end": 164.072,
+          "score": 0.643
+        },
+        {
+          "word": "one",
+          "start": 164.372,
+          "end": 164.472,
+          "score": 0.539
+        },
+        {
+          "word": "as",
+          "start": 164.512,
+          "end": 164.572,
+          "score": 0.546
+        },
+        {
+          "word": "my",
+          "start": 164.612,
+          "end": 164.812,
+          "score": 0.752
+        },
+        {
+          "word": "office,",
+          "start": 164.832,
+          "end": 165.112,
+          "score": 0.66
+        },
+        {
+          "word": "and",
+          "start": 165.332,
+          "end": 165.512,
+          "score": 0.469
+        },
+        {
+          "word": "the",
+          "start": 165.532,
+          "end": 165.592,
+          "score": 0.301
+        },
+        {
+          "word": "third",
+          "start": 165.632,
+          "end": 165.872,
+          "score": 0.563
+        },
+        {
+          "word": "is",
+          "start": 165.952,
+          "end": 166.032,
+          "score": 0.664
+        },
+        {
+          "word": "kind",
+          "start": 166.092,
+          "end": 166.252,
+          "score": 0.679
+        },
+        {
+          "word": "of",
+          "start": 166.312,
+          "end": 166.352,
+          "score": 0.878
+        },
+        {
+          "word": "a",
+          "start": 166.412,
+          "end": 166.512,
+          "score": 0.747
+        },
+        {
+          "word": "storage-slash-guest",
+          "start": 166.572,
+          "end": 167.732,
+          "score": 0.747
+        },
+        {
+          "word": "room.",
+          "start": 167.792,
+          "end": 167.972,
+          "score": 0.636
+        }
+      ]
+    },
+    {
+      "start": 168.492,
+      "end": 173.693,
+      "text": "There are stairs, both upstairs and down, so it’s not really set up for someone with mobility issues right now.",
+      "words": [
+        {
+          "word": "There",
+          "start": 168.492,
+          "end": 168.632,
+          "score": 0.664
+        },
+        {
+          "word": "are",
+          "start": 168.672,
+          "end": 168.752,
+          "score": 0.414
+        },
+        {
+          "word": "stairs,",
+          "start": 168.772,
+          "end": 169.252,
+          "score": 0.701
+        },
+        {
+          "word": "both",
+          "start": 169.332,
+          "end": 169.492,
+          "score": 0.517
+        },
+        {
+          "word": "upstairs",
+          "start": 169.552,
+          "end": 169.892,
+          "score": 0.502
+        },
+        {
+          "word": "and",
+          "start": 169.952,
+          "end": 170.012,
+          "score": 0.655
+        },
+        {
+          "word": "down,",
+          "start": 170.052,
+          "end": 170.492,
+          "score": 0.823
+        },
+        {
+          "word": "so",
+          "start": 170.532,
+          "end": 170.712,
+          "score": 0.706
+        },
+        {
+          "word": "it’s",
+          "start": 170.772,
+          "end": 170.912,
+          "score": 0.41
+        },
+        {
+          "word": "not",
+          "start": 170.932,
+          "end": 171.152,
+          "score": 0.613
+        },
+        {
+          "word": "really",
+          "start": 171.313,
+          "end": 171.613,
+          "score": 0.663
+        },
+        {
+          "word": "set",
+          "start": 171.633,
+          "end": 171.773,
+          "score": 0.594
+        },
+        {
+          "word": "up",
+          "start": 171.853,
+          "end": 171.973,
+          "score": 0.616
+        },
+        {
+          "word": "for",
+          "start": 171.993,
+          "end": 172.113,
+          "score": 0.448
+        },
+        {
+          "word": "someone",
+          "start": 172.133,
+          "end": 172.393,
+          "score": 0.678
+        },
+        {
+          "word": "with",
+          "start": 172.413,
+          "end": 172.533,
+          "score": 0.662
+        },
+        {
+          "word": "mobility",
+          "start": 172.573,
+          "end": 173.093,
+          "score": 0.445
+        },
+        {
+          "word": "issues",
+          "start": 173.113,
+          "end": 173.293,
+          "score": 0.369
+        },
+        {
+          "word": "right",
+          "start": 173.353,
+          "end": 173.513,
+          "score": 0.227
+        },
+        {
+          "word": "now.",
+          "start": 173.533,
+          "end": 173.693,
+          "score": 0.871
+        }
+      ]
+    },
+    {
+      "start": 175.373,
+      "end": 180.173,
+      "text": "Okay, so space exists, but it's not currently set up for someone with mobility challenges.",
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 175.373,
+          "end": 175.653,
+          "score": 0.637
+        },
+        {
+          "word": "so",
+          "start": 175.833,
+          "end": 176.013,
+          "score": 0.779
+        },
+        {
+          "word": "space",
+          "start": 176.033,
+          "end": 176.293,
+          "score": 0.64
+        },
+        {
+          "word": "exists,",
+          "start": 176.353,
+          "end": 176.873,
+          "score": 0.841
+        },
+        {
+          "word": "but",
+          "start": 176.893,
+          "end": 177.093,
+          "score": 0.882
+        },
+        {
+          "word": "it's",
+          "start": 177.233,
+          "end": 177.393,
+          "score": 0.774
+        },
+        {
+          "word": "not",
+          "start": 177.553,
+          "end": 177.753,
+          "score": 0.88
+        },
+        {
+          "word": "currently",
+          "start": 177.813,
+          "end": 178.093,
+          "score": 0.362
+        },
+        {
+          "word": "set",
+          "start": 178.113,
+          "end": 178.213,
+          "score": 0.695
+        },
+        {
+          "word": "up",
+          "start": 178.253,
+          "end": 178.313,
+          "score": 0.684
+        },
+        {
+          "word": "for",
+          "start": 178.353,
+          "end": 178.473,
+          "score": 0.493
+        },
+        {
+          "word": "someone",
+          "start": 178.513,
+          "end": 178.873,
+          "score": 0.787
+        },
+        {
+          "word": "with",
+          "start": 179.013,
+          "end": 179.173,
+          "score": 0.862
+        },
+        {
+          "word": "mobility",
+          "start": 179.233,
+          "end": 179.633,
+          "score": 0.854
+        },
+        {
+          "word": "challenges.",
+          "start": 179.673,
+          "end": 180.173,
+          "score": 0.802
+        }
+      ]
+    },
+    {
+      "start": 180.973,
+      "end": 182.253,
+      "text": "Let's add a timeline to this.",
+      "words": [
+        {
+          "word": "Let's",
+          "start": 180.973,
+          "end": 181.213,
+          "score": 0.681
+        },
+        {
+          "word": "add",
+          "start": 181.413,
+          "end": 181.513,
+          "score": 0.574
+        },
+        {
+          "word": "a",
+          "start": 181.553,
+          "end": 181.613,
+          "score": 0.77
+        },
+        {
+          "word": "timeline",
+          "start": 181.653,
+          "end": 181.953,
+          "score": 0.615
+        },
+        {
+          "word": "to",
+          "start": 181.993,
+          "end": 182.053,
+          "score": 0.96
+        },
+        {
+          "word": "this.",
+          "start": 182.093,
+          "end": 182.253,
+          "score": 0.796
+        }
+      ]
+    },
+    {
+      "start": 182.313,
+      "end": 185.934,
+      "text": "Is there something that makes us feel like it has to happen now versus later?",
+      "words": [
+        {
+          "word": "Is",
+          "start": 182.313,
+          "end": 182.373,
+          "score": 0.524
+        },
+        {
+          "word": "there",
+          "start": 182.393,
+          "end": 182.513,
+          "score": 0.483
+        },
+        {
+          "word": "something",
+          "start": 182.533,
+          "end": 182.813,
+          "score": 0.743
+        },
+        {
+          "word": "that",
+          "start": 182.833,
+          "end": 182.953,
+          "score": 0.826
+        },
+        {
+          "word": "makes",
+          "start": 182.993,
+          "end": 183.153,
+          "score": 0.685
+        },
+        {
+          "word": "us",
+          "start": 183.233,
+          "end": 183.333,
+          "score": 0.682
+        },
+        {
+          "word": "feel",
+          "start": 183.413,
+          "end": 183.753,
+          "score": 0.804
+        },
+        {
+          "word": "like",
+          "start": 183.813,
+          "end": 183.953,
+          "score": 0.623
+        },
+        {
+          "word": "it",
+          "start": 184.013,
+          "end": 184.053,
+          "score": 0.719
+        },
+        {
+          "word": "has",
+          "start": 184.113,
+          "end": 184.393,
+          "score": 0.9
+        },
+        {
+          "word": "to",
+          "start": 184.613,
+          "end": 184.713,
+          "score": 0.726
+        },
+        {
+          "word": "happen",
+          "start": 184.753,
+          "end": 184.994,
+          "score": 0.783
+        },
+        {
+          "word": "now",
+          "start": 185.054,
+          "end": 185.234,
+          "score": 0.983
+        },
+        {
+          "word": "versus",
+          "start": 185.334,
+          "end": 185.614,
+          "score": 0.447
+        },
+        {
+          "word": "later?",
+          "start": 185.674,
+          "end": 185.934,
+          "score": 0.898
+        }
+      ]
+    },
+    {
+      "start": 187.454,
+      "end": 188.134,
+      "text": "Yeah, there is.",
+      "words": [
+        {
+          "word": "Yeah,",
+          "start": 187.454,
+          "end": 187.714,
+          "score": 0.612
+        },
+        {
+          "word": "there",
+          "start": 187.734,
+          "end": 187.854,
+          "score": 0.695
+        },
+        {
+          "word": "is.",
+          "start": 187.994,
+          "end": 188.134,
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "start": 188.414,
+      "end": 195.494,
+      "text": "Basically, my mom’s property tax bill is coming up in about four months, and my sister Megan is really pressing me to figure out a plan before then.",
+      "words": [
+        {
+          "word": "Basically,",
+          "start": 188.414,
+          "end": 188.974,
+          "score": 0.653
+        },
+        {
+          "word": "my",
+          "start": 188.994,
+          "end": 189.134,
+          "score": 0.849
+        },
+        {
+          "word": "mom’s",
+          "start": 189.154,
+          "end": 189.434,
+          "score": 0.677
+        },
+        {
+          "word": "property",
+          "start": 189.514,
+          "end": 189.854,
+          "score": 0.628
+        },
+        {
+          "word": "tax",
+          "start": 189.874,
+          "end": 190.114,
+          "score": 0.884
+        },
+        {
+          "word": "bill",
+          "start": 190.134,
+          "end": 190.294,
+          "score": 0.428
+        },
+        {
+          "word": "is",
+          "start": 190.314,
+          "end": 190.394,
+          "score": 0.517
+        },
+        {
+          "word": "coming",
+          "start": 190.434,
+          "end": 190.654,
+          "score": 0.877
+        },
+        {
+          "word": "up",
+          "start": 190.714,
+          "end": 190.794,
+          "score": 0.862
+        },
+        {
+          "word": "in",
+          "start": 190.834,
+          "end": 190.894,
+          "score": 0.704
+        },
+        {
+          "word": "about",
+          "start": 190.934,
+          "end": 191.154,
+          "score": 0.804
+        },
+        {
+          "word": "four",
+          "start": 191.214,
+          "end": 191.394,
+          "score": 0.464
+        },
+        {
+          "word": "months,",
+          "start": 191.434,
+          "end": 191.754,
+          "score": 0.716
+        },
+        {
+          "word": "and",
+          "start": 192.354,
+          "end": 192.474,
+          "score": 0.897
+        },
+        {
+          "word": "my",
+          "start": 192.534,
+          "end": 192.654,
+          "score": 0.804
+        },
+        {
+          "word": "sister",
+          "start": 192.674,
+          "end": 192.934,
+          "score": 0.526
+        },
+        {
+          "word": "Megan",
+          "start": 192.974,
+          "end": 193.254,
+          "score": 0.668
+        },
+        {
+          "word": "is",
+          "start": 193.314,
+          "end": 193.394,
+          "score": 0.664
+        },
+        {
+          "word": "really",
+          "start": 193.494,
+          "end": 193.674,
+          "score": 0.25
+        },
+        {
+          "word": "pressing",
+          "start": 193.734,
+          "end": 194.034,
+          "score": 0.814
+        },
+        {
+          "word": "me",
+          "start": 194.074,
+          "end": 194.214,
+          "score": 0.837
+        },
+        {
+          "word": "to",
+          "start": 194.234,
+          "end": 194.334,
+          "score": 0.404
+        },
+        {
+          "word": "figure",
+          "start": 194.354,
+          "end": 194.594,
+          "score": 0.514
+        },
+        {
+          "word": "out",
+          "start": 194.634,
+          "end": 194.734,
+          "score": 0.736
+        },
+        {
+          "word": "a",
+          "start": 194.754,
+          "end": 194.774,
+          "score": 0.063
+        },
+        {
+          "word": "plan",
+          "start": 194.794,
+          "end": 195.014,
+          "score": 0.76
+        },
+        {
+          "word": "before",
+          "start": 195.034,
+          "end": 195.294,
+          "score": 0.778
+        },
+        {
+          "word": "then.",
+          "start": 195.334,
+          "end": 195.494,
+          "score": 0.87
+        }
+      ]
+    },
+    {
+      "start": 196.134,
+      "end": 200.075,
+      "text": "Plus, every time my mom falls, it just makes the whole situation feel more urgent.",
+      "words": [
+        {
+          "word": "Plus,",
+          "start": 196.134,
+          "end": 196.414,
+          "score": 0.779
+        },
+        {
+          "word": "every",
+          "start": 196.494,
+          "end": 196.654,
+          "score": 0.714
+        },
+        {
+          "word": "time",
+          "start": 196.674,
+          "end": 196.794,
+          "score": 0.608
+        },
+        {
+          "word": "my",
+          "start": 196.834,
+          "end": 196.934,
+          "score": 0.375
+        },
+        {
+          "word": "mom",
+          "start": 196.954,
+          "end": 197.114,
+          "score": 0.649
+        },
+        {
+          "word": "falls,",
+          "start": 197.154,
+          "end": 197.554,
+          "score": 0.822
+        },
+        {
+          "word": "it",
+          "start": 198.074,
+          "end": 198.114,
+          "score": 0.0
+        },
+        {
+          "word": "just",
+          "start": 198.134,
+          "end": 198.234,
+          "score": 0.714
+        },
+        {
+          "word": "makes",
+          "start": 198.294,
+          "end": 198.474,
+          "score": 0.738
+        },
+        {
+          "word": "the",
+          "start": 198.514,
+          "end": 198.574,
+          "score": 0.895
+        },
+        {
+          "word": "whole",
+          "start": 198.595,
+          "end": 198.735,
+          "score": 0.576
+        },
+        {
+          "word": "situation",
+          "start": 198.775,
+          "end": 199.295,
+          "score": 0.869
+        },
+        {
+          "word": "feel",
+          "start": 199.335,
+          "end": 199.515,
+          "score": 0.483
+        },
+        {
+          "word": "more",
+          "start": 199.535,
+          "end": 199.775,
+          "score": 0.416
+        },
+        {
+          "word": "urgent.",
+          "start": 199.795,
+          "end": 200.075,
+          "score": 0.769
+        }
+      ]
+    },
+    {
+      "start": 201.175,
+      "end": 205.535,
+      "text": "So there's a four-month window, pressure from Megan, and increasing anxiety after each fall.",
+      "words": [
+        {
+          "word": "So",
+          "start": 201.175,
+          "end": 201.275,
+          "score": 0.959
+        },
+        {
+          "word": "there's",
+          "start": 201.315,
+          "end": 201.475,
+          "score": 0.936
+        },
+        {
+          "word": "a",
+          "start": 201.515,
+          "end": 201.575,
+          "score": 0.509
+        },
+        {
+          "word": "four-month",
+          "start": 201.615,
+          "end": 201.975,
+          "score": 0.665
+        },
+        {
+          "word": "window,",
+          "start": 202.015,
+          "end": 202.375,
+          "score": 0.918
+        },
+        {
+          "word": "pressure",
+          "start": 202.735,
+          "end": 203.035,
+          "score": 0.737
+        },
+        {
+          "word": "from",
+          "start": 203.055,
+          "end": 203.175,
+          "score": 0.746
+        },
+        {
+          "word": "Megan,",
+          "start": 203.215,
+          "end": 203.555,
+          "score": 0.831
+        },
+        {
+          "word": "and",
+          "start": 203.635,
+          "end": 203.735,
+          "score": 0.824
+        },
+        {
+          "word": "increasing",
+          "start": 203.815,
+          "end": 204.235,
+          "score": 0.743
+        },
+        {
+          "word": "anxiety",
+          "start": 204.275,
+          "end": 204.715,
+          "score": 0.748
+        },
+        {
+          "word": "after",
+          "start": 204.795,
+          "end": 204.995,
+          "score": 0.803
+        },
+        {
+          "word": "each",
+          "start": 205.055,
+          "end": 205.235,
+          "score": 0.83
+        },
+        {
+          "word": "fall.",
+          "start": 205.275,
+          "end": 205.535,
+          "score": 0.843
+        }
+      ]
+    },
+    {
+      "start": 206.375,
+      "end": 208.515,
+      "text": "Now I want to gently shift us to challenges.",
+      "words": [
+        {
+          "word": "Now",
+          "start": 206.375,
+          "end": 206.515,
+          "score": 0.943
+        },
+        {
+          "word": "I",
+          "start": 206.535,
+          "end": 206.575,
+          "score": 0.428
+        },
+        {
+          "word": "want",
+          "start": 206.635,
+          "end": 206.755,
+          "score": 0.862
+        },
+        {
+          "word": "to",
+          "start": 206.775,
+          "end": 206.875,
+          "score": 0.682
+        },
+        {
+          "word": "gently",
+          "start": 206.915,
+          "end": 207.215,
+          "score": 0.668
+        },
+        {
+          "word": "shift",
+          "start": 207.295,
+          "end": 207.535,
+          "score": 0.701
+        },
+        {
+          "word": "us",
+          "start": 207.635,
+          "end": 207.755,
+          "score": 0.654
+        },
+        {
+          "word": "to",
+          "start": 207.795,
+          "end": 207.895,
+          "score": 0.82
+        },
+        {
+          "word": "challenges.",
+          "start": 207.935,
+          "end": 208.515,
+          "score": 0.823
+        }
+      ]
+    },
+    {
+      "start": 208.795,
+      "end": 212.676,
+      "text": "When you imagine your mom moving in, what feels most difficult or concerning?",
+      "words": [
+        {
+          "word": "When",
+          "start": 208.795,
+          "end": 209.055,
+          "score": 0.633
+        },
+        {
+          "word": "you",
+          "start": 209.335,
+          "end": 209.455,
+          "score": 0.948
+        },
+        {
+          "word": "imagine",
+          "start": 209.495,
+          "end": 209.835,
+          "score": 0.759
+        },
+        {
+          "word": "your",
+          "start": 209.875,
+          "end": 209.975,
+          "score": 0.795
+        },
+        {
+          "word": "mom",
+          "start": 209.995,
+          "end": 210.135,
+          "score": 0.472
+        },
+        {
+          "word": "moving",
+          "start": 210.155,
+          "end": 210.355,
+          "score": 0.749
+        },
+        {
+          "word": "in,",
+          "start": 210.455,
+          "end": 210.555,
+          "score": 0.914
+        },
+        {
+          "word": "what",
+          "start": 210.635,
+          "end": 210.815,
+          "score": 0.747
+        },
+        {
+          "word": "feels",
+          "start": 210.855,
+          "end": 211.075,
+          "score": 0.682
+        },
+        {
+          "word": "most",
+          "start": 211.135,
+          "end": 211.295,
+          "score": 0.6
+        },
+        {
+          "word": "difficult",
+          "start": 211.335,
+          "end": 211.795,
+          "score": 0.822
+        },
+        {
+          "word": "or",
+          "start": 212.095,
+          "end": 212.175,
+          "score": 0.822
+        },
+        {
+          "word": "concerning?",
+          "start": 212.215,
+          "end": 212.676,
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "start": 215.196,
+      "end": 217.456,
+      "text": "I think a lot of things come to mind.",
+      "words": [
+        {
+          "word": "I",
+          "start": 215.196,
+          "end": 215.256,
+          "score": 0.643
+        },
+        {
+          "word": "think",
+          "start": 215.296,
+          "end": 215.496,
+          "score": 0.766
+        },
+        {
+          "word": "a",
+          "start": 215.756,
+          "end": 215.856,
+          "score": 0.742
+        },
+        {
+          "word": "lot",
+          "start": 215.896,
+          "end": 216.036,
+          "score": 0.666
+        },
+        {
+          "word": "of",
+          "start": 216.076,
+          "end": 216.136,
+          "score": 0.482
+        },
+        {
+          "word": "things",
+          "start": 216.156,
+          "end": 216.376,
+          "score": 0.788
+        },
+        {
+          "word": "come",
+          "start": 216.416,
+          "end": 216.556,
+          "score": 0.822
+        },
+        {
+          "word": "to",
+          "start": 216.596,
+          "end": 216.676,
+          "score": 0.651
+        },
+        {
+          "word": "mind.",
+          "start": 216.716,
+          "end": 217.456,
+          "score": 0.87
+        }
+      ]
+    },
+    {
+      "start": 217.476,
+      "end": 221.416,
+      "text": "Losing privacy is a big one—my partner Alex and I are used to having our own space.",
+      "words": [
+        {
+          "word": "Losing",
+          "start": 217.476,
+          "end": 217.756,
+          "score": 0.859
+        },
+        {
+          "word": "privacy",
+          "start": 217.796,
+          "end": 218.196,
+          "score": 0.752
+        },
+        {
+          "word": "is",
+          "start": 218.216,
+          "end": 218.256,
+          "score": 0.803
+        },
+        {
+          "word": "a",
+          "start": 218.296,
+          "end": 218.316,
+          "score": 0.853
+        },
+        {
+          "word": "big",
+          "start": 218.356,
+          "end": 218.476,
+          "score": 0.892
+        },
+        {
+          "word": "one—my",
+          "start": 218.576,
+          "end": 219.216,
+          "score": 0.747
+        },
+        {
+          "word": "partner",
+          "start": 219.236,
+          "end": 219.516,
+          "score": 0.387
+        },
+        {
+          "word": "Alex",
+          "start": 219.556,
+          "end": 219.816,
+          "score": 0.707
+        },
+        {
+          "word": "and",
+          "start": 219.876,
+          "end": 219.936,
+          "score": 0.688
+        },
+        {
+          "word": "I",
+          "start": 220.036,
+          "end": 220.116,
+          "score": 0.693
+        },
+        {
+          "word": "are",
+          "start": 220.136,
+          "end": 220.216,
+          "score": 0.397
+        },
+        {
+          "word": "used",
+          "start": 220.276,
+          "end": 220.416,
+          "score": 0.29
+        },
+        {
+          "word": "to",
+          "start": 220.436,
+          "end": 220.496,
+          "score": 0.869
+        },
+        {
+          "word": "having",
+          "start": 220.516,
+          "end": 220.696,
+          "score": 0.77
+        },
+        {
+          "word": "our",
+          "start": 220.736,
+          "end": 220.836,
+          "score": 0.417
+        },
+        {
+          "word": "own",
+          "start": 220.876,
+          "end": 221.016,
+          "score": 0.32
+        },
+        {
+          "word": "space.",
+          "start": 221.036,
+          "end": 221.416,
+          "score": 0.857
+        }
+      ]
+    },
+    {
+      "start": 222.116,
+      "end": 228.757,
+      "text": "I also worry that I’ll end up becoming a full-time caregiver without really meaning to, and honestly, my mom can be pretty critical.",
+      "words": [
+        {
+          "word": "I",
+          "start": 222.116,
+          "end": 222.156,
+          "score": 0.716
+        },
+        {
+          "word": "also",
+          "start": 222.296,
+          "end": 222.536,
+          "score": 0.483
+        },
+        {
+          "word": "worry",
+          "start": 222.576,
+          "end": 222.856,
+          "score": 0.848
+        },
+        {
+          "word": "that",
+          "start": 222.896,
+          "end": 223.076,
+          "score": 0.784
+        },
+        {
+          "word": "I’ll",
+          "start": 223.236,
+          "end": 223.376,
+          "score": 0.44
+        },
+        {
+          "word": "end",
+          "start": 223.396,
+          "end": 223.496,
+          "score": 0.643
+        },
+        {
+          "word": "up",
+          "start": 223.556,
+          "end": 223.616,
+          "score": 0.617
+        },
+        {
+          "word": "becoming",
+          "start": 223.656,
+          "end": 223.916,
+          "score": 0.701
+        },
+        {
+          "word": "a",
+          "start": 223.956,
+          "end": 224.016,
+          "score": 0.527
+        },
+        {
+          "word": "full-time",
+          "start": 224.036,
+          "end": 224.396,
+          "score": 0.668
+        },
+        {
+          "word": "caregiver",
+          "start": 224.436,
+          "end": 224.916,
+          "score": 0.643
+        },
+        {
+          "word": "without",
+          "start": 224.936,
+          "end": 225.196,
+          "score": 0.757
+        },
+        {
+          "word": "really",
+          "start": 225.236,
+          "end": 225.436,
+          "score": 0.423
+        },
+        {
+          "word": "meaning",
+          "start": 225.476,
+          "end": 225.736,
+          "score": 0.667
+        },
+        {
+          "word": "to,",
+          "start": 225.776,
+          "end": 226.097,
+          "score": 0.91
+        },
+        {
+          "word": "and",
+          "start": 226.157,
+          "end": 226.257,
+          "score": 0.558
+        },
+        {
+          "word": "honestly,",
+          "start": 226.317,
+          "end": 226.777,
+          "score": 0.801
+        },
+        {
+          "word": "my",
+          "start": 227.437,
+          "end": 227.577,
+          "score": 0.904
+        },
+        {
+          "word": "mom",
+          "start": 227.617,
+          "end": 227.797,
+          "score": 0.755
+        },
+        {
+          "word": "can",
+          "start": 227.817,
+          "end": 227.917,
+          "score": 0.919
+        },
+        {
+          "word": "be",
+          "start": 227.957,
+          "end": 228.017,
+          "score": 0.816
+        },
+        {
+          "word": "pretty",
+          "start": 228.057,
+          "end": 228.257,
+          "score": 0.87
+        },
+        {
+          "word": "critical.",
+          "start": 228.297,
+          "end": 228.757,
+          "score": 0.794
+        }
+      ]
+    },
+    {
+      "start": 229.117,
+      "end": 232.737,
+      "text": "So there are some emotional and relationship challenges that make it feel hard.",
+      "words": [
+        {
+          "word": "So",
+          "start": 229.117,
+          "end": 229.537,
+          "score": 0.845
+        },
+        {
+          "word": "there",
+          "start": 229.577,
+          "end": 229.697,
+          "score": 0.655
+        },
+        {
+          "word": "are",
+          "start": 229.757,
+          "end": 229.837,
+          "score": 0.341
+        },
+        {
+          "word": "some",
+          "start": 229.857,
+          "end": 229.977,
+          "score": 0.6
+        },
+        {
+          "word": "emotional",
+          "start": 230.057,
+          "end": 230.657,
+          "score": 0.673
+        },
+        {
+          "word": "and",
+          "start": 230.737,
+          "end": 230.817,
+          "score": 0.321
+        },
+        {
+          "word": "relationship",
+          "start": 230.857,
+          "end": 231.377,
+          "score": 0.749
+        },
+        {
+          "word": "challenges",
+          "start": 231.397,
+          "end": 231.857,
+          "score": 0.791
+        },
+        {
+          "word": "that",
+          "start": 231.877,
+          "end": 231.977,
+          "score": 0.802
+        },
+        {
+          "word": "make",
+          "start": 232.017,
+          "end": 232.177,
+          "score": 0.643
+        },
+        {
+          "word": "it",
+          "start": 232.197,
+          "end": 232.237,
+          "score": 0.657
+        },
+        {
+          "word": "feel",
+          "start": 232.277,
+          "end": 232.437,
+          "score": 0.478
+        },
+        {
+          "word": "hard.",
+          "start": 232.457,
+          "end": 232.737,
+          "score": 0.813
+        }
+      ]
+    },
+    {
+      "start": 234.257,
+      "end": 235.197,
+      "text": "That's a lot to hold.",
+      "words": [
+        {
+          "word": "That's",
+          "start": 234.257,
+          "end": 234.497,
+          "score": 0.802
+        },
+        {
+          "word": "a",
+          "start": 234.557,
+          "end": 234.597,
+          "score": 0.821
+        },
+        {
+          "word": "lot",
+          "start": 234.637,
+          "end": 234.797,
+          "score": 0.394
+        },
+        {
+          "word": "to",
+          "start": 234.857,
+          "end": 234.917,
+          "score": 0.522
+        },
+        {
+          "word": "hold.",
+          "start": 234.937,
+          "end": 235.197,
+          "score": 0.848
+        }
+      ]
+    },
+    {
+      "start": 235.437,
+      "end": 241.018,
+      "text": "I'm hearing concerns about privacy, relationship strain, caregiver burden, and emotional history with your mom.",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 235.437,
+          "end": 235.537,
+          "score": 0.904
+        },
+        {
+          "word": "hearing",
+          "start": 235.577,
+          "end": 235.837,
+          "score": 0.704
+        },
+        {
+          "word": "concerns",
+          "start": 235.877,
+          "end": 236.217,
+          "score": 0.862
+        },
+        {
+          "word": "about",
+          "start": 236.257,
+          "end": 236.417,
+          "score": 0.784
+        },
+        {
+          "word": "privacy,",
+          "start": 236.477,
+          "end": 237.037,
+          "score": 0.873
+        },
+        {
+          "word": "relationship",
+          "start": 237.257,
+          "end": 237.917,
+          "score": 0.726
+        },
+        {
+          "word": "strain,",
+          "start": 237.937,
+          "end": 238.297,
+          "score": 0.874
+        },
+        {
+          "word": "caregiver",
+          "start": 238.597,
+          "end": 238.997,
+          "score": 0.543
+        },
+        {
+          "word": "burden,",
+          "start": 239.037,
+          "end": 239.397,
+          "score": 0.859
+        },
+        {
+          "word": "and",
+          "start": 239.698,
+          "end": 239.758,
+          "score": 0.83
+        },
+        {
+          "word": "emotional",
+          "start": 239.818,
+          "end": 240.178,
+          "score": 0.825
+        },
+        {
+          "word": "history",
+          "start": 240.198,
+          "end": 240.538,
+          "score": 0.567
+        },
+        {
+          "word": "with",
+          "start": 240.578,
+          "end": 240.658,
+          "score": 0.585
+        },
+        {
+          "word": "your",
+          "start": 240.698,
+          "end": 240.798,
+          "score": 0.8
+        },
+        {
+          "word": "mom.",
+          "start": 240.838,
+          "end": 241.018,
+          "score": 0.82
+        }
+      ]
+    },
+    {
+      "start": 241.798,
+      "end": 243.818,
+      "text": "Let's pause for a moment on the emotional side.",
+      "words": [
+        {
+          "word": "Let's",
+          "start": 241.798,
+          "end": 241.978,
+          "score": 0.852
+        },
+        {
+          "word": "pause",
+          "start": 242.078,
+          "end": 242.358,
+          "score": 0.667
+        },
+        {
+          "word": "for",
+          "start": 242.398,
+          "end": 242.498,
+          "score": 0.68
+        },
+        {
+          "word": "a",
+          "start": 242.518,
+          "end": 242.538,
+          "score": 0.764
+        },
+        {
+          "word": "moment",
+          "start": 242.578,
+          "end": 242.838,
+          "score": 0.86
+        },
+        {
+          "word": "on",
+          "start": 242.958,
+          "end": 243.018,
+          "score": 0.934
+        },
+        {
+          "word": "the",
+          "start": 243.038,
+          "end": 243.138,
+          "score": 0.58
+        },
+        {
+          "word": "emotional",
+          "start": 243.158,
+          "end": 243.518,
+          "score": 0.708
+        },
+        {
+          "word": "side.",
+          "start": 243.558,
+          "end": 243.818,
+          "score": 0.923
+        }
+      ]
+    },
+    {
+      "start": 244.258,
+      "end": 246.958,
+      "text": "What feelings come up for you when you think about the situation?",
+      "words": [
+        {
+          "word": "What",
+          "start": 244.258,
+          "end": 244.498,
+          "score": 0.716
+        },
+        {
+          "word": "feelings",
+          "start": 244.578,
+          "end": 244.918,
+          "score": 0.738
+        },
+        {
+          "word": "come",
+          "start": 244.978,
+          "end": 245.098,
+          "score": 0.719
+        },
+        {
+          "word": "up",
+          "start": 245.138,
+          "end": 245.218,
+          "score": 0.908
+        },
+        {
+          "word": "for",
+          "start": 245.258,
+          "end": 245.378,
+          "score": 0.654
+        },
+        {
+          "word": "you",
+          "start": 245.398,
+          "end": 245.558,
+          "score": 0.877
+        },
+        {
+          "word": "when",
+          "start": 245.598,
+          "end": 245.718,
+          "score": 0.822
+        },
+        {
+          "word": "you",
+          "start": 245.758,
+          "end": 245.838,
+          "score": 0.911
+        },
+        {
+          "word": "think",
+          "start": 245.878,
+          "end": 246.018,
+          "score": 0.889
+        },
+        {
+          "word": "about",
+          "start": 246.078,
+          "end": 246.258,
+          "score": 0.837
+        },
+        {
+          "word": "the",
+          "start": 246.298,
+          "end": 246.398,
+          "score": 0.745
+        },
+        {
+          "word": "situation?",
+          "start": 246.438,
+          "end": 246.958,
+          "score": 0.947
+        }
+      ]
+    },
+    {
+      "start": 248.858,
+      "end": 251.238,
+      "text": "I guess a lot of guilt comes up first.",
+      "words": [
+        {
+          "word": "I",
+          "start": 248.858,
+          "end": 248.918,
+          "score": 0.991
+        },
+        {
+          "word": "guess",
+          "start": 248.958,
+          "end": 249.178,
+          "score": 0.724
+        },
+        {
+          "word": "a",
+          "start": 249.478,
+          "end": 249.558,
+          "score": 0.55
+        },
+        {
+          "word": "lot",
+          "start": 249.618,
+          "end": 249.678,
+          "score": 0.224
+        },
+        {
+          "word": "of",
+          "start": 249.758,
+          "end": 249.798,
+          "score": 0.36
+        },
+        {
+          "word": "guilt",
+          "start": 249.838,
+          "end": 250.098,
+          "score": 0.514
+        },
+        {
+          "word": "comes",
+          "start": 250.178,
+          "end": 250.358,
+          "score": 0.669
+        },
+        {
+          "word": "up",
+          "start": 250.438,
+          "end": 250.538,
+          "score": 0.686
+        },
+        {
+          "word": "first.",
+          "start": 250.558,
+          "end": 251.238,
+          "score": 0.799
+        }
+      ]
+    },
+    {
+      "start": 251.258,
+      "end": 254.419,
+      "text": "I feel guilty for even hesitating because I want to do the right thing.",
+      "words": [
+        {
+          "word": "I",
+          "start": 251.258,
+          "end": 251.318,
+          "score": 0.933
+        },
+        {
+          "word": "feel",
+          "start": 251.358,
+          "end": 251.518,
+          "score": 0.494
+        },
+        {
+          "word": "guilty",
+          "start": 251.558,
+          "end": 252.018,
+          "score": 0.667
+        },
+        {
+          "word": "for",
+          "start": 252.038,
+          "end": 252.158,
+          "score": 0.127
+        },
+        {
+          "word": "even",
+          "start": 252.178,
+          "end": 252.358,
+          "score": 0.857
+        },
+        {
+          "word": "hesitating",
+          "start": 252.398,
+          "end": 253.038,
+          "score": 0.624
+        },
+        {
+          "word": "because",
+          "start": 253.058,
+          "end": 253.218,
+          "score": 0.317
+        },
+        {
+          "word": "I",
+          "start": 253.419,
+          "end": 253.499,
+          "score": 0.881
+        },
+        {
+          "word": "want",
+          "start": 253.539,
+          "end": 253.659,
+          "score": 0.234
+        },
+        {
+          "word": "to",
+          "start": 253.679,
+          "end": 253.719,
+          "score": 0.463
+        },
+        {
+          "word": "do",
+          "start": 253.739,
+          "end": 253.839,
+          "score": 0.592
+        },
+        {
+          "word": "the",
+          "start": 253.879,
+          "end": 253.959,
+          "score": 0.85
+        },
+        {
+          "word": "right",
+          "start": 253.999,
+          "end": 254.159,
+          "score": 0.533
+        },
+        {
+          "word": "thing.",
+          "start": 254.199,
+          "end": 254.419,
+          "score": 0.864
+        }
+      ]
+    },
+    {
+      "start": 255.159,
+      "end": 259.739,
+      "text": "But there’s also fear—fear of how it might change my life or my relationship.",
+      "words": [
+        {
+          "word": "But",
+          "start": 255.159,
+          "end": 255.239,
+          "score": 0.971
+        },
+        {
+          "word": "there’s",
+          "start": 255.279,
+          "end": 255.539,
+          "score": 0.411
+        },
+        {
+          "word": "also",
+          "start": 255.559,
+          "end": 255.719,
+          "score": 0.309
+        },
+        {
+          "word": "fear—fear",
+          "start": 255.779,
+          "end": 256.879,
+          "score": 0.801
+        },
+        {
+          "word": "of",
+          "start": 256.959,
+          "end": 257.079,
+          "score": 0.836
+        },
+        {
+          "word": "how",
+          "start": 257.219,
+          "end": 257.359,
+          "score": 0.748
+        },
+        {
+          "word": "it",
+          "start": 257.379,
+          "end": 257.439,
+          "score": 0.635
+        },
+        {
+          "word": "might",
+          "start": 257.479,
+          "end": 257.599,
+          "score": 0.287
+        },
+        {
+          "word": "change",
+          "start": 257.619,
+          "end": 257.819,
+          "score": 0.528
+        },
+        {
+          "word": "my",
+          "start": 257.919,
+          "end": 258.019,
+          "score": 0.902
+        },
+        {
+          "word": "life",
+          "start": 258.079,
+          "end": 258.379,
+          "score": 0.805
+        },
+        {
+          "word": "or",
+          "start": 258.599,
+          "end": 258.839,
+          "score": 0.793
+        },
+        {
+          "word": "my",
+          "start": 258.919,
+          "end": 259.059,
+          "score": 0.938
+        },
+        {
+          "word": "relationship.",
+          "start": 259.099,
+          "end": 259.739,
+          "score": 0.776
+        }
+      ]
+    },
+    {
+      "start": 260.419,
+      "end": 263.599,
+      "text": "And I guess I feel some resentment too, which I’m not proud of, but it’s there.",
+      "words": [
+        {
+          "word": "And",
+          "start": 260.419,
+          "end": 260.519,
+          "score": 0.701
+        },
+        {
+          "word": "I",
+          "start": 260.559,
+          "end": 260.619,
+          "score": 0.981
+        },
+        {
+          "word": "guess",
+          "start": 260.639,
+          "end": 260.799,
+          "score": 0.781
+        },
+        {
+          "word": "I",
+          "start": 260.879,
+          "end": 260.939,
+          "score": 0.612
+        },
+        {
+          "word": "feel",
+          "start": 260.959,
+          "end": 261.139,
+          "score": 0.855
+        },
+        {
+          "word": "some",
+          "start": 261.159,
+          "end": 261.299,
+          "score": 0.669
+        },
+        {
+          "word": "resentment",
+          "start": 261.319,
+          "end": 261.759,
+          "score": 0.415
+        },
+        {
+          "word": "too,",
+          "start": 261.779,
+          "end": 262.099,
+          "score": 0.453
+        },
+        {
+          "word": "which",
+          "start": 262.179,
+          "end": 262.339,
+          "score": 0.547
+        },
+        {
+          "word": "I’m",
+          "start": 262.359,
+          "end": 262.459,
+          "score": 0.509
+        },
+        {
+          "word": "not",
+          "start": 262.499,
+          "end": 262.599,
+          "score": 0.598
+        },
+        {
+          "word": "proud",
+          "start": 262.639,
+          "end": 262.899,
+          "score": 0.647
+        },
+        {
+          "word": "of,",
+          "start": 262.919,
+          "end": 263.079,
+          "score": 0.69
+        },
+        {
+          "word": "but",
+          "start": 263.099,
+          "end": 263.199,
+          "score": 0.648
+        },
+        {
+          "word": "it’s",
+          "start": 263.279,
+          "end": 263.359,
+          "score": 0.576
+        },
+        {
+          "word": "there.",
+          "start": 263.379,
+          "end": 263.599,
+          "score": 0.567
+        }
+      ]
+    },
+    {
+      "start": 265.999,
+      "end": 267.42,
+      "text": "I really appreciate you saying that out loud.",
+      "words": [
+        {
+          "word": "I",
+          "start": 265.999,
+          "end": 266.019,
+          "score": 0.691
+        },
+        {
+          "word": "really",
+          "start": 266.039,
+          "end": 266.219,
+          "score": 0.796
+        },
+        {
+          "word": "appreciate",
+          "start": 266.239,
+          "end": 266.539,
+          "score": 0.381
+        },
+        {
+          "word": "you",
+          "start": 266.559,
+          "end": 266.639,
+          "score": 0.914
+        },
+        {
+          "word": "saying",
+          "start": 266.679,
+          "end": 266.839,
+          "score": 0.709
+        },
+        {
+          "word": "that",
+          "start": 266.879,
+          "end": 267.019,
+          "score": 0.645
+        },
+        {
+          "word": "out",
+          "start": 267.039,
+          "end": 267.16,
+          "score": 0.465
+        },
+        {
+          "word": "loud.",
+          "start": 267.18,
+          "end": 267.42,
+          "score": 0.775
+        }
+      ]
+    },
+    {
+      "start": 267.72,
+      "end": 271.6,
+      "text": "Feeling guilt and resentment at the same time is actually very common in situations like this.",
+      "words": [
+        {
+          "word": "Feeling",
+          "start": 267.72,
+          "end": 268.02,
+          "score": 0.713
+        },
+        {
+          "word": "guilt",
+          "start": 268.06,
+          "end": 268.22,
+          "score": 0.558
+        },
+        {
+          "word": "and",
+          "start": 268.26,
+          "end": 268.32,
+          "score": 0.667
+        },
+        {
+          "word": "resentment",
+          "start": 268.38,
+          "end": 268.84,
+          "score": 0.711
+        },
+        {
+          "word": "at",
+          "start": 268.92,
+          "end": 268.98,
+          "score": 0.899
+        },
+        {
+          "word": "the",
+          "start": 269.0,
+          "end": 269.1,
+          "score": 0.701
+        },
+        {
+          "word": "same",
+          "start": 269.14,
+          "end": 269.32,
+          "score": 0.678
+        },
+        {
+          "word": "time",
+          "start": 269.34,
+          "end": 269.52,
+          "score": 0.657
+        },
+        {
+          "word": "is",
+          "start": 269.54,
+          "end": 269.58,
+          "score": 0.783
+        },
+        {
+          "word": "actually",
+          "start": 269.64,
+          "end": 269.94,
+          "score": 0.673
+        },
+        {
+          "word": "very",
+          "start": 269.98,
+          "end": 270.16,
+          "score": 0.774
+        },
+        {
+          "word": "common",
+          "start": 270.22,
+          "end": 270.52,
+          "score": 0.865
+        },
+        {
+          "word": "in",
+          "start": 270.58,
+          "end": 270.66,
+          "score": 0.861
+        },
+        {
+          "word": "situations",
+          "start": 270.7,
+          "end": 271.18,
+          "score": 0.814
+        },
+        {
+          "word": "like",
+          "start": 271.2,
+          "end": 271.36,
+          "score": 0.813
+        },
+        {
+          "word": "this.",
+          "start": 271.4,
+          "end": 271.6,
+          "score": 0.902
+        }
+      ]
+    },
+    {
+      "start": 272.0,
+      "end": 275.36,
+      "text": "Naming those emotions helps us keep them from silently driving decisions.",
+      "words": [
+        {
+          "word": "Naming",
+          "start": 272.0,
+          "end": 272.24,
+          "score": 0.818
+        },
+        {
+          "word": "those",
+          "start": 272.26,
+          "end": 272.4,
+          "score": 0.647
+        },
+        {
+          "word": "emotions",
+          "start": 272.44,
+          "end": 272.84,
+          "score": 0.638
+        },
+        {
+          "word": "helps",
+          "start": 272.86,
+          "end": 273.04,
+          "score": 0.747
+        },
+        {
+          "word": "us",
+          "start": 273.44,
+          "end": 273.54,
+          "score": 0.475
+        },
+        {
+          "word": "keep",
+          "start": 273.62,
+          "end": 273.76,
+          "score": 0.806
+        },
+        {
+          "word": "them",
+          "start": 273.8,
+          "end": 273.94,
+          "score": 0.814
+        },
+        {
+          "word": "from",
+          "start": 273.98,
+          "end": 274.12,
+          "score": 0.848
+        },
+        {
+          "word": "silently",
+          "start": 274.18,
+          "end": 274.52,
+          "score": 0.853
+        },
+        {
+          "word": "driving",
+          "start": 274.56,
+          "end": 274.9,
+          "score": 0.902
+        },
+        {
+          "word": "decisions.",
+          "start": 274.94,
+          "end": 275.36,
+          "score": 0.807
+        }
+      ]
+    },
+    {
+      "start": 276.24,
+      "end": 280.46,
+      "text": "Now, before we talk about solutions, I want us to work toward a realistic goal for this stage.",
+      "words": [
+        {
+          "word": "Now,",
+          "start": 276.24,
+          "end": 276.44,
+          "score": 0.826
+        },
+        {
+          "word": "before",
+          "start": 276.52,
+          "end": 276.74,
+          "score": 0.733
+        },
+        {
+          "word": "we",
+          "start": 276.76,
+          "end": 276.84,
+          "score": 0.565
+        },
+        {
+          "word": "talk",
+          "start": 276.88,
+          "end": 277.06,
+          "score": 0.805
+        },
+        {
+          "word": "about",
+          "start": 277.12,
+          "end": 277.3,
+          "score": 0.844
+        },
+        {
+          "word": "solutions,",
+          "start": 277.34,
+          "end": 277.82,
+          "score": 0.829
+        },
+        {
+          "word": "I",
+          "start": 277.88,
+          "end": 277.92,
+          "score": 0.878
+        },
+        {
+          "word": "want",
+          "start": 277.96,
+          "end": 278.06,
+          "score": 0.677
+        },
+        {
+          "word": "us",
+          "start": 278.12,
+          "end": 278.22,
+          "score": 0.628
+        },
+        {
+          "word": "to",
+          "start": 278.3,
+          "end": 278.42,
+          "score": 0.922
+        },
+        {
+          "word": "work",
+          "start": 278.46,
+          "end": 278.68,
+          "score": 0.887
+        },
+        {
+          "word": "toward",
+          "start": 278.72,
+          "end": 279.0,
+          "score": 0.794
+        },
+        {
+          "word": "a",
+          "start": 279.04,
+          "end": 279.1,
+          "score": 0.463
+        },
+        {
+          "word": "realistic",
+          "start": 279.12,
+          "end": 279.5,
+          "score": 0.714
+        },
+        {
+          "word": "goal",
+          "start": 279.54,
+          "end": 279.76,
+          "score": 0.762
+        },
+        {
+          "word": "for",
+          "start": 279.82,
+          "end": 279.92,
+          "score": 0.951
+        },
+        {
+          "word": "this",
+          "start": 279.94,
+          "end": 280.08,
+          "score": 0.502
+        },
+        {
+          "word": "stage.",
+          "start": 280.1,
+          "end": 280.46,
+          "score": 0.738
+        }
+      ]
+    },
+    {
+      "start": 281.061,
+      "end": 283.641,
+      "text": "Not fix everything, but something more concrete.",
+      "words": [
+        {
+          "word": "Not",
+          "start": 281.061,
+          "end": 281.221,
+          "score": 0.827
+        },
+        {
+          "word": "fix",
+          "start": 281.261,
+          "end": 281.401,
+          "score": 0.917
+        },
+        {
+          "word": "everything,",
+          "start": 281.481,
+          "end": 281.881,
+          "score": 0.841
+        },
+        {
+          "word": "but",
+          "start": 282.161,
+          "end": 282.361,
+          "score": 0.951
+        },
+        {
+          "word": "something",
+          "start": 282.441,
+          "end": 282.821,
+          "score": 0.836
+        },
+        {
+          "word": "more",
+          "start": 282.901,
+          "end": 283.101,
+          "score": 0.7
+        },
+        {
+          "word": "concrete.",
+          "start": 283.221,
+          "end": 283.641,
+          "score": 0.736
+        }
+      ]
+    },
+    {
+      "start": 284.301,
+      "end": 287.881,
+      "text": "Based on what we've discussed, what do you think you need clarity on first?",
+      "words": [
+        {
+          "word": "Based",
+          "start": 284.301,
+          "end": 284.501,
+          "score": 0.548
+        },
+        {
+          "word": "on",
+          "start": 284.561,
+          "end": 284.661,
+          "score": 0.694
+        },
+        {
+          "word": "what",
+          "start": 284.681,
+          "end": 284.801,
+          "score": 0.729
+        },
+        {
+          "word": "we've",
+          "start": 284.821,
+          "end": 284.981,
+          "score": 0.76
+        },
+        {
+          "word": "discussed,",
+          "start": 285.021,
+          "end": 285.521,
+          "score": 0.746
+        },
+        {
+          "word": "what",
+          "start": 285.661,
+          "end": 285.841,
+          "score": 0.907
+        },
+        {
+          "word": "do",
+          "start": 285.901,
+          "end": 285.941,
+          "score": 0.614
+        },
+        {
+          "word": "you",
+          "start": 285.981,
+          "end": 286.101,
+          "score": 0.788
+        },
+        {
+          "word": "think",
+          "start": 286.141,
+          "end": 286.381,
+          "score": 0.823
+        },
+        {
+          "word": "you",
+          "start": 286.701,
+          "end": 286.761,
+          "score": 0.143
+        },
+        {
+          "word": "need",
+          "start": 286.801,
+          "end": 286.921,
+          "score": 0.482
+        },
+        {
+          "word": "clarity",
+          "start": 287.081,
+          "end": 287.381,
+          "score": 0.779
+        },
+        {
+          "word": "on",
+          "start": 287.441,
+          "end": 287.541,
+          "score": 0.584
+        },
+        {
+          "word": "first?",
+          "start": 287.601,
+          "end": 287.881,
+          "score": 0.812
+        }
+      ]
+    },
+    {
+      "start": 291.221,
+      "end": 298.802,
+      "text": "I think I need to know if moving her in is even the right option, or if there are other alternatives I’m not considering because of guilt or pressure.",
+      "words": [
+        {
+          "word": "I",
+          "start": 291.221,
+          "end": 291.281,
+          "score": 0.851
+        },
+        {
+          "word": "think",
+          "start": 291.301,
+          "end": 291.521,
+          "score": 0.744
+        },
+        {
+          "word": "I",
+          "start": 291.801,
+          "end": 291.881,
+          "score": 0.717
+        },
+        {
+          "word": "need",
+          "start": 291.961,
+          "end": 292.041,
+          "score": 0.203
+        },
+        {
+          "word": "to",
+          "start": 292.061,
+          "end": 292.161,
+          "score": 0.592
+        },
+        {
+          "word": "know",
+          "start": 292.181,
+          "end": 292.361,
+          "score": 0.588
+        },
+        {
+          "word": "if",
+          "start": 292.421,
+          "end": 292.501,
+          "score": 0.85
+        },
+        {
+          "word": "moving",
+          "start": 292.581,
+          "end": 292.841,
+          "score": 0.744
+        },
+        {
+          "word": "her",
+          "start": 292.881,
+          "end": 293.061,
+          "score": 0.341
+        },
+        {
+          "word": "in",
+          "start": 293.081,
+          "end": 293.161,
+          "score": 0.492
+        },
+        {
+          "word": "is",
+          "start": 293.221,
+          "end": 293.281,
+          "score": 0.522
+        },
+        {
+          "word": "even",
+          "start": 293.361,
+          "end": 293.541,
+          "score": 0.854
+        },
+        {
+          "word": "the",
+          "start": 293.561,
+          "end": 293.641,
+          "score": 0.789
+        },
+        {
+          "word": "right",
+          "start": 293.701,
+          "end": 293.841,
+          "score": 0.423
+        },
+        {
+          "word": "option,",
+          "start": 293.921,
+          "end": 294.241,
+          "score": 0.86
+        },
+        {
+          "word": "or",
+          "start": 294.682,
+          "end": 294.862,
+          "score": 0.83
+        },
+        {
+          "word": "if",
+          "start": 294.982,
+          "end": 295.062,
+          "score": 0.701
+        },
+        {
+          "word": "there",
+          "start": 295.102,
+          "end": 295.222,
+          "score": 0.512
+        },
+        {
+          "word": "are",
+          "start": 295.242,
+          "end": 295.322,
+          "score": 0.448
+        },
+        {
+          "word": "other",
+          "start": 295.362,
+          "end": 295.542,
+          "score": 0.709
+        },
+        {
+          "word": "alternatives",
+          "start": 295.602,
+          "end": 296.262,
+          "score": 0.596
+        },
+        {
+          "word": "I’m",
+          "start": 296.322,
+          "end": 296.402,
+          "score": 0.589
+        },
+        {
+          "word": "not",
+          "start": 296.442,
+          "end": 296.582,
+          "score": 0.648
+        },
+        {
+          "word": "considering",
+          "start": 296.602,
+          "end": 297.102,
+          "score": 0.732
+        },
+        {
+          "word": "because",
+          "start": 297.322,
+          "end": 297.562,
+          "score": 0.672
+        },
+        {
+          "word": "of",
+          "start": 297.642,
+          "end": 297.722,
+          "score": 0.776
+        },
+        {
+          "word": "guilt",
+          "start": 297.922,
+          "end": 298.162,
+          "score": 0.408
+        },
+        {
+          "word": "or",
+          "start": 298.302,
+          "end": 298.382,
+          "score": 0.614
+        },
+        {
+          "word": "pressure.",
+          "start": 298.402,
+          "end": 298.802,
+          "score": 0.685
+        }
+      ]
+    },
+    {
+      "start": 299.502,
+      "end": 304.642,
+      "text": "Basically, I need clarity on what’s realistic for everyone involved before making any big decisions.",
+      "words": [
+        {
+          "word": "Basically,",
+          "start": 299.502,
+          "end": 300.082,
+          "score": 0.907
+        },
+        {
+          "word": "I",
+          "start": 300.222,
+          "end": 300.282,
+          "score": 0.933
+        },
+        {
+          "word": "need",
+          "start": 300.302,
+          "end": 300.502,
+          "score": 0.635
+        },
+        {
+          "word": "clarity",
+          "start": 300.582,
+          "end": 301.042,
+          "score": 0.654
+        },
+        {
+          "word": "on",
+          "start": 301.142,
+          "end": 301.242,
+          "score": 0.865
+        },
+        {
+          "word": "what’s",
+          "start": 301.322,
+          "end": 301.502,
+          "score": 0.729
+        },
+        {
+          "word": "realistic",
+          "start": 301.562,
+          "end": 302.062,
+          "score": 0.576
+        },
+        {
+          "word": "for",
+          "start": 302.102,
+          "end": 302.202,
+          "score": 0.417
+        },
+        {
+          "word": "everyone",
+          "start": 302.242,
+          "end": 302.542,
+          "score": 0.675
+        },
+        {
+          "word": "involved",
+          "start": 302.582,
+          "end": 303.042,
+          "score": 0.67
+        },
+        {
+          "word": "before",
+          "start": 303.142,
+          "end": 303.442,
+          "score": 0.789
+        },
+        {
+          "word": "making",
+          "start": 303.462,
+          "end": 303.742,
+          "score": 0.772
+        },
+        {
+          "word": "any",
+          "start": 303.842,
+          "end": 303.982,
+          "score": 0.864
+        },
+        {
+          "word": "big",
+          "start": 304.022,
+          "end": 304.142,
+          "score": 0.881
+        },
+        {
+          "word": "decisions.",
+          "start": 304.182,
+          "end": 304.642,
+          "score": 0.895
+        }
+      ]
+    },
+    {
+      "start": 305.182,
+      "end": 307.082,
+      "text": "That's a very clear and thoughtful goal.",
+      "words": [
+        {
+          "word": "That's",
+          "start": 305.182,
+          "end": 305.382,
+          "score": 0.37
+        },
+        {
+          "word": "a",
+          "start": 305.402,
+          "end": 305.442,
+          "score": 0.733
+        },
+        {
+          "word": "very",
+          "start": 305.482,
+          "end": 305.722,
+          "score": 0.858
+        },
+        {
+          "word": "clear",
+          "start": 305.822,
+          "end": 306.162,
+          "score": 0.703
+        },
+        {
+          "word": "and",
+          "start": 306.242,
+          "end": 306.322,
+          "score": 0.699
+        },
+        {
+          "word": "thoughtful",
+          "start": 306.402,
+          "end": 306.762,
+          "score": 0.784
+        },
+        {
+          "word": "goal.",
+          "start": 306.822,
+          "end": 307.082,
+          "score": 0.807
+        }
+      ]
+    },
+    {
+      "start": 307.622,
+      "end": 311.183,
+      "text": "Let me reflect what I'm hearing and see if this fits.",
+      "words": [
+        {
+          "word": "Let",
+          "start": 307.622,
+          "end": 307.742,
+          "score": 0.411
+        },
+        {
+          "word": "me",
+          "start": 307.762,
+          "end": 307.822,
+          "score": 0.488
+        },
+        {
+          "word": "reflect",
+          "start": 307.862,
+          "end": 308.223,
+          "score": 0.747
+        },
+        {
+          "word": "what",
+          "start": 308.263,
+          "end": 308.343,
+          "score": 0.775
+        },
+        {
+          "word": "I'm",
+          "start": 308.363,
+          "end": 308.463,
+          "score": 0.834
+        },
+        {
+          "word": "hearing",
+          "start": 308.523,
+          "end": 308.823,
+          "score": 0.711
+        },
+        {
+          "word": "and",
+          "start": 308.883,
+          "end": 310.043,
+          "score": 0.724
+        },
+        {
+          "word": "see",
+          "start": 310.183,
+          "end": 310.303,
+          "score": 0.792
+        },
+        {
+          "word": "if",
+          "start": 310.343,
+          "end": 310.383,
+          "score": 0.689
+        },
+        {
+          "word": "this",
+          "start": 310.423,
+          "end": 310.563,
+          "score": 0.618
+        },
+        {
+          "word": "fits.",
+          "start": 310.603,
+          "end": 311.183,
+          "score": 0.933
+        }
+      ]
+    },
+    {
+      "start": 311.203,
+      "end": 324.684,
+      "text": "Right now, the problem isn't how do I move your mom in tomorrow, but rather how do you make a well-informed, realistic decision about Linda's living situation that balances her safety, your capacity, and your household's needs.",
+      "words": [
+        {
+          "word": "Right",
+          "start": 311.203,
+          "end": 311.363,
+          "score": 0.644
+        },
+        {
+          "word": "now,",
+          "start": 311.403,
+          "end": 311.603,
+          "score": 0.9
+        },
+        {
+          "word": "the",
+          "start": 311.763,
+          "end": 311.863,
+          "score": 0.948
+        },
+        {
+          "word": "problem",
+          "start": 311.903,
+          "end": 312.143,
+          "score": 0.809
+        },
+        {
+          "word": "isn't",
+          "start": 312.223,
+          "end": 312.423,
+          "score": 0.765
+        },
+        {
+          "word": "how",
+          "start": 312.503,
+          "end": 312.743,
+          "score": 0.94
+        },
+        {
+          "word": "do",
+          "start": 312.883,
+          "end": 312.983,
+          "score": 0.898
+        },
+        {
+          "word": "I",
+          "start": 313.023,
+          "end": 313.083,
+          "score": 0.847
+        },
+        {
+          "word": "move",
+          "start": 313.123,
+          "end": 313.343,
+          "score": 0.876
+        },
+        {
+          "word": "your",
+          "start": 313.823,
+          "end": 313.963,
+          "score": 0.849
+        },
+        {
+          "word": "mom",
+          "start": 313.983,
+          "end": 314.163,
+          "score": 0.615
+        },
+        {
+          "word": "in",
+          "start": 314.223,
+          "end": 314.323,
+          "score": 0.82
+        },
+        {
+          "word": "tomorrow,",
+          "start": 314.423,
+          "end": 314.903,
+          "score": 0.867
+        },
+        {
+          "word": "but",
+          "start": 316.003,
+          "end": 316.163,
+          "score": 0.937
+        },
+        {
+          "word": "rather",
+          "start": 316.543,
+          "end": 316.803,
+          "score": 0.714
+        },
+        {
+          "word": "how",
+          "start": 316.923,
+          "end": 317.063,
+          "score": 0.736
+        },
+        {
+          "word": "do",
+          "start": 317.083,
+          "end": 317.203,
+          "score": 0.616
+        },
+        {
+          "word": "you",
+          "start": 317.223,
+          "end": 317.323,
+          "score": 0.467
+        },
+        {
+          "word": "make",
+          "start": 317.363,
+          "end": 317.563,
+          "score": 0.689
+        },
+        {
+          "word": "a",
+          "start": 317.763,
+          "end": 317.823,
+          "score": 0.906
+        },
+        {
+          "word": "well-informed,",
+          "start": 317.843,
+          "end": 318.583,
+          "score": 0.575
+        },
+        {
+          "word": "realistic",
+          "start": 318.603,
+          "end": 319.023,
+          "score": 0.59
+        },
+        {
+          "word": "decision",
+          "start": 319.083,
+          "end": 319.443,
+          "score": 0.924
+        },
+        {
+          "word": "about",
+          "start": 319.623,
+          "end": 319.823,
+          "score": 0.765
+        },
+        {
+          "word": "Linda's",
+          "start": 319.883,
+          "end": 320.143,
+          "score": 0.573
+        },
+        {
+          "word": "living",
+          "start": 320.203,
+          "end": 320.443,
+          "score": 0.797
+        },
+        {
+          "word": "situation",
+          "start": 320.463,
+          "end": 320.983,
+          "score": 0.841
+        },
+        {
+          "word": "that",
+          "start": 321.023,
+          "end": 321.143,
+          "score": 0.819
+        },
+        {
+          "word": "balances",
+          "start": 321.183,
+          "end": 321.583,
+          "score": 0.859
+        },
+        {
+          "word": "her",
+          "start": 321.623,
+          "end": 321.743,
+          "score": 0.678
+        },
+        {
+          "word": "safety,",
+          "start": 321.783,
+          "end": 322.244,
+          "score": 0.897
+        },
+        {
+          "word": "your",
+          "start": 322.744,
+          "end": 322.904,
+          "score": 0.574
+        },
+        {
+          "word": "capacity,",
+          "start": 322.964,
+          "end": 323.544,
+          "score": 0.906
+        },
+        {
+          "word": "and",
+          "start": 323.664,
+          "end": 323.724,
+          "score": 0.76
+        },
+        {
+          "word": "your",
+          "start": 323.764,
+          "end": 323.884,
+          "score": 0.906
+        },
+        {
+          "word": "household's",
+          "start": 323.924,
+          "end": 324.364,
+          "score": 0.726
+        },
+        {
+          "word": "needs.",
+          "start": 324.424,
+          "end": 324.684,
+          "score": 0.89
+        }
+      ]
+    },
+    {
+      "start": 325.064,
+      "end": 325.804,
+      "text": "Does that capture it?",
+      "words": [
+        {
+          "word": "Does",
+          "start": 325.064,
+          "end": 325.164,
+          "score": 0.762
+        },
+        {
+          "word": "that",
+          "start": 325.204,
+          "end": 325.344,
+          "score": 0.852
+        },
+        {
+          "word": "capture",
+          "start": 325.404,
+          "end": 325.724,
+          "score": 0.703
+        },
+        {
+          "word": "it?",
+          "start": 325.744,
+          "end": 325.804,
+          "score": 0.658
+        }
+      ]
+    },
+    {
+      "start": 328.244,
+      "end": 329.824,
+      "text": "Yeah, that really does capture it.",
+      "words": [
+        {
+          "word": "Yeah,",
+          "start": 328.244,
+          "end": 328.664,
+          "score": 0.637
+        },
+        {
+          "word": "that",
+          "start": 328.684,
+          "end": 328.824,
+          "score": 0.819
+        },
+        {
+          "word": "really",
+          "start": 328.884,
+          "end": 329.084,
+          "score": 0.685
+        },
+        {
+          "word": "does",
+          "start": 329.124,
+          "end": 329.284,
+          "score": 0.584
+        },
+        {
+          "word": "capture",
+          "start": 329.324,
+          "end": 329.684,
+          "score": 0.8
+        },
+        {
+          "word": "it.",
+          "start": 329.724,
+          "end": 329.824,
+          "score": 0.946
+        }
+      ]
+    },
+    {
+      "start": 330.084,
+      "end": 336.045,
+      "text": "It feels like a relief to frame it that way, because it's more about making an informed decision rather than rushing into anything.",
+      "words": [
+        {
+          "word": "It",
+          "start": 330.084,
+          "end": 330.164,
+          "score": 0.565
+        },
+        {
+          "word": "feels",
+          "start": 330.224,
+          "end": 330.444,
+          "score": 0.646
+        },
+        {
+          "word": "like",
+          "start": 330.484,
+          "end": 330.584,
+          "score": 0.836
+        },
+        {
+          "word": "a",
+          "start": 330.644,
+          "end": 330.704,
+          "score": 0.662
+        },
+        {
+          "word": "relief",
+          "start": 330.744,
+          "end": 331.124,
+          "score": 0.724
+        },
+        {
+          "word": "to",
+          "start": 331.184,
+          "end": 331.284,
+          "score": 0.885
+        },
+        {
+          "word": "frame",
+          "start": 331.324,
+          "end": 331.504,
+          "score": 0.456
+        },
+        {
+          "word": "it",
+          "start": 331.564,
+          "end": 331.624,
+          "score": 0.598
+        },
+        {
+          "word": "that",
+          "start": 331.644,
+          "end": 331.784,
+          "score": 0.864
+        },
+        {
+          "word": "way,",
+          "start": 331.844,
+          "end": 332.064,
+          "score": 0.819
+        },
+        {
+          "word": "because",
+          "start": 332.284,
+          "end": 332.524,
+          "score": 0.732
+        },
+        {
+          "word": "it's",
+          "start": 332.604,
+          "end": 332.704,
+          "score": 0.41
+        },
+        {
+          "word": "more",
+          "start": 332.764,
+          "end": 332.944,
+          "score": 0.578
+        },
+        {
+          "word": "about",
+          "start": 332.964,
+          "end": 333.184,
+          "score": 0.882
+        },
+        {
+          "word": "making",
+          "start": 333.244,
+          "end": 333.504,
+          "score": 0.805
+        },
+        {
+          "word": "an",
+          "start": 333.544,
+          "end": 333.604,
+          "score": 0.515
+        },
+        {
+          "word": "informed",
+          "start": 333.644,
+          "end": 333.964,
+          "score": 0.56
+        },
+        {
+          "word": "decision",
+          "start": 334.004,
+          "end": 334.484,
+          "score": 0.849
+        },
+        {
+          "word": "rather",
+          "start": 334.564,
+          "end": 334.864,
+          "score": 0.599
+        },
+        {
+          "word": "than",
+          "start": 334.904,
+          "end": 335.044,
+          "score": 0.934
+        },
+        {
+          "word": "rushing",
+          "start": 335.144,
+          "end": 335.424,
+          "score": 0.801
+        },
+        {
+          "word": "into",
+          "start": 335.484,
+          "end": 335.645,
+          "score": 0.782
+        },
+        {
+          "word": "anything.",
+          "start": 335.685,
+          "end": 336.045,
+          "score": 0.848
+        }
+      ]
+    },
+    {
+      "start": 336.605,
+      "end": 337.565,
+      "text": "Thanks for putting it that way.",
+      "words": [
+        {
+          "word": "Thanks",
+          "start": 336.605,
+          "end": 336.805,
+          "score": 0.667
+        },
+        {
+          "word": "for",
+          "start": 336.865,
+          "end": 336.925,
+          "score": 0.318
+        },
+        {
+          "word": "putting",
+          "start": 336.945,
+          "end": 337.105,
+          "score": 0.912
+        },
+        {
+          "word": "it",
+          "start": 337.145,
+          "end": 337.185,
+          "score": 0.494
+        },
+        {
+          "word": "that",
+          "start": 337.225,
+          "end": 337.345,
+          "score": 0.814
+        },
+        {
+          "word": "way.",
+          "start": 337.385,
+          "end": 337.565,
+          "score": 0.902
+        }
+      ]
+    },
+    {
+      "start": 338.125,
+      "end": 338.405,
+      "text": "Good.",
+      "words": [
+        {
+          "word": "Good.",
+          "start": 338.125,
+          "end": 338.405,
+          "score": 0.722
+        }
+      ]
+    },
+    {
+      "start": 338.945,
+      "end": 347.825,
+      "text": "So for this phase, our goal might be to gather enough information and clarity over the next few months to decide whether Linda moving in is realistic, and if not, what other options exist.",
+      "words": [
+        {
+          "word": "So",
+          "start": 338.945,
+          "end": 339.085,
+          "score": 0.722
+        },
+        {
+          "word": "for",
+          "start": 339.105,
+          "end": 339.185,
+          "score": 0.533
+        },
+        {
+          "word": "this",
+          "start": 339.205,
+          "end": 339.345,
+          "score": 0.526
+        },
+        {
+          "word": "phase,",
+          "start": 339.425,
+          "end": 339.705,
+          "score": 0.671
+        },
+        {
+          "word": "our",
+          "start": 339.725,
+          "end": 339.805,
+          "score": 0.73
+        },
+        {
+          "word": "goal",
+          "start": 339.845,
+          "end": 340.005,
+          "score": 0.631
+        },
+        {
+          "word": "might",
+          "start": 340.025,
+          "end": 340.165,
+          "score": 0.699
+        },
+        {
+          "word": "be",
+          "start": 340.205,
+          "end": 340.305,
+          "score": 0.828
+        },
+        {
+          "word": "to",
+          "start": 340.345,
+          "end": 340.445,
+          "score": 0.708
+        },
+        {
+          "word": "gather",
+          "start": 340.485,
+          "end": 340.745,
+          "score": 0.697
+        },
+        {
+          "word": "enough",
+          "start": 340.785,
+          "end": 340.985,
+          "score": 0.698
+        },
+        {
+          "word": "information",
+          "start": 341.065,
+          "end": 341.645,
+          "score": 0.836
+        },
+        {
+          "word": "and",
+          "start": 341.665,
+          "end": 341.725,
+          "score": 0.362
+        },
+        {
+          "word": "clarity",
+          "start": 341.785,
+          "end": 342.145,
+          "score": 0.87
+        },
+        {
+          "word": "over",
+          "start": 342.225,
+          "end": 342.325,
+          "score": 0.295
+        },
+        {
+          "word": "the",
+          "start": 342.345,
+          "end": 342.445,
+          "score": 0.718
+        },
+        {
+          "word": "next",
+          "start": 342.465,
+          "end": 342.625,
+          "score": 0.534
+        },
+        {
+          "word": "few",
+          "start": 342.665,
+          "end": 342.785,
+          "score": 0.559
+        },
+        {
+          "word": "months",
+          "start": 342.825,
+          "end": 343.025,
+          "score": 0.645
+        },
+        {
+          "word": "to",
+          "start": 343.065,
+          "end": 343.165,
+          "score": 0.772
+        },
+        {
+          "word": "decide",
+          "start": 343.205,
+          "end": 343.605,
+          "score": 0.864
+        },
+        {
+          "word": "whether",
+          "start": 344.025,
+          "end": 344.285,
+          "score": 0.673
+        },
+        {
+          "word": "Linda",
+          "start": 344.305,
+          "end": 344.605,
+          "score": 0.816
+        },
+        {
+          "word": "moving",
+          "start": 344.645,
+          "end": 344.885,
+          "score": 0.867
+        },
+        {
+          "word": "in",
+          "start": 344.945,
+          "end": 345.005,
+          "score": 0.898
+        },
+        {
+          "word": "is",
+          "start": 345.065,
+          "end": 345.105,
+          "score": 0.493
+        },
+        {
+          "word": "realistic,",
+          "start": 345.145,
+          "end": 345.625,
+          "score": 0.58
+        },
+        {
+          "word": "and",
+          "start": 345.825,
+          "end": 345.905,
+          "score": 0.825
+        },
+        {
+          "word": "if",
+          "start": 345.965,
+          "end": 346.045,
+          "score": 0.953
+        },
+        {
+          "word": "not,",
+          "start": 346.145,
+          "end": 346.365,
+          "score": 0.93
+        },
+        {
+          "word": "what",
+          "start": 346.585,
+          "end": 346.765,
+          "score": 0.933
+        },
+        {
+          "word": "other",
+          "start": 346.865,
+          "end": 347.045,
+          "score": 0.724
+        },
+        {
+          "word": "options",
+          "start": 347.125,
+          "end": 347.405,
+          "score": 0.856
+        },
+        {
+          "word": "exist.",
+          "start": 347.485,
+          "end": 347.825,
+          "score": 0.826
+        }
+      ]
+    },
+    {
+      "start": 348.445,
+      "end": 349.866,
+      "text": "How does that sound as a starting goal?",
+      "words": [
+        {
+          "word": "How",
+          "start": 348.445,
+          "end": 348.565,
+          "score": 0.535
+        },
+        {
+          "word": "does",
+          "start": 348.585,
+          "end": 348.665,
+          "score": 0.373
+        },
+        {
+          "word": "that",
+          "start": 348.705,
+          "end": 348.865,
+          "score": 0.847
+        },
+        {
+          "word": "sound",
+          "start": 348.885,
+          "end": 349.085,
+          "score": 0.564
+        },
+        {
+          "word": "as",
+          "start": 349.145,
+          "end": 349.205,
+          "score": 0.557
+        },
+        {
+          "word": "a",
+          "start": 349.286,
+          "end": 349.326,
+          "score": 0.68
+        },
+        {
+          "word": "starting",
+          "start": 349.346,
+          "end": 349.626,
+          "score": 0.847
+        },
+        {
+          "word": "goal?",
+          "start": 349.666,
+          "end": 349.866,
+          "score": 0.641
+        }
+      ]
+    },
+    {
+      "start": 351.426,
+      "end": 354.206,
+      "text": "That sounds really doable and a lot less overwhelming.",
+      "words": [
+        {
+          "word": "That",
+          "start": 351.426,
+          "end": 351.626,
+          "score": 0.841
+        },
+        {
+          "word": "sounds",
+          "start": 351.666,
+          "end": 351.966,
+          "score": 0.634
+        },
+        {
+          "word": "really",
+          "start": 352.066,
+          "end": 352.306,
+          "score": 0.551
+        },
+        {
+          "word": "doable",
+          "start": 352.326,
+          "end": 352.706,
+          "score": 0.824
+        },
+        {
+          "word": "and",
+          "start": 353.046,
+          "end": 353.186,
+          "score": 0.293
+        },
+        {
+          "word": "a",
+          "start": 353.206,
+          "end": 353.266,
+          "score": 0.714
+        },
+        {
+          "word": "lot",
+          "start": 353.306,
+          "end": 353.426,
+          "score": 0.592
+        },
+        {
+          "word": "less",
+          "start": 353.446,
+          "end": 353.606,
+          "score": 0.553
+        },
+        {
+          "word": "overwhelming.",
+          "start": 353.646,
+          "end": 354.206,
+          "score": 0.777
+        }
+      ]
+    },
+    {
+      "start": 354.846,
+      "end": 383.508,
+      "text": "It definitely helps to have a clear goal like that to work towards.",
+      "words": [
+        {
+          "word": "It",
+          "start": 354.846,
+          "end": 354.926,
+          "score": 0.829
+        },
+        {
+          "word": "definitely",
+          "start": 355.006,
+          "end": 355.366,
+          "score": 0.628
+        },
+        {
+          "word": "helps",
+          "start": 355.406,
+          "end": 355.606,
+          "score": 0.685
+        },
+        {
+          "word": "to",
+          "start": 355.626,
+          "end": 355.686,
+          "score": 0.716
+        },
+        {
+          "word": "have",
+          "start": 355.706,
+          "end": 355.806,
+          "score": 0.891
+        },
+        {
+          "word": "a",
+          "start": 355.846,
+          "end": 356.746,
+          "score": 0.491
+        },
+        {
+          "word": "clear",
+          "start": 358.726,
+          "end": 359.546,
+          "score": 0.417
+        },
+        {
+          "word": "goal",
+          "start": 359.766,
+          "end": 359.986,
+          "score": 0.608
+        },
+        {
+          "word": "like",
+          "start": 360.066,
+          "end": 360.546,
+          "score": 0.509
+        },
+        {
+          "word": "that",
+          "start": 360.746,
+          "end": 363.067,
+          "score": 0.385
+        },
+        {
+          "word": "to",
+          "start": 363.647,
+          "end": 363.927,
+          "score": 0.471
+        },
+        {
+          "word": "work",
+          "start": 364.807,
+          "end": 364.967,
+          "score": 0.65
+        },
+        {
+          "word": "towards.",
+          "start": 365.447,
+          "end": 383.508,
+          "score": 0.644
+        }
+      ]
+    }
+  ]
+}

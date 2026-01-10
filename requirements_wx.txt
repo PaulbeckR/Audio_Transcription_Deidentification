@@ -1,0 +1,23 @@
+# WhisperX Environment Requirements
+# For use with .venv_whisperx virtual environment
+# Python 3.10 required
+
+# Installation instructions:
+# 1. Create venv: python3.10 -m venv .venv_whisperx
+# 2. Activate: .venv_whisperx\Scripts\activate
+# 3. Install PyTorch first:
+#    pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu126
+# 4. Install remaining packages:
+#    pip install -r requirements_wx.txt
+
+# Note: PyTorch versions are installed separately (see step 3 above)
+# to ensure correct CUDA version (cu126)
+
+# Core WhisperX
+whisperx>=3.7.0
+
+# Audio processing
+pydub>=0.25.0
+
+# Note: pyannote-audio and other dependencies will be installed
+# automatically by whisperx (don't pin them here to avoid conflicts)

@@ -1,0 +1,207 @@
+# Audio Transcription Deidentification - Training Configuration
+# Fine-tuning settings for Whisper model optimization
+
+# Fine-tuning strategy
+strategy:
+  method: "lora"  # Options: "lora", "full", "freeze_encoder"
+  # lora: LoRA parameter-efficient fine-tuning (recommended for 6GB GPU)
+  # full: Full model fine-tuning (requires 24GB+ GPU)
+  # freeze_encoder: Fine-tune decoder only without LoRA (middle ground)
+
+# Dataset configuration
+dataset:
+  # Paths
+  input_dir: "prepared_datasets/whisper_finetuning"  # HuggingFace dataset location
+  output_dir: "models/whisper-finetuned"  # Where to save fine-tuned models
+
+  # Data splits
+  splits:
+    train: 0.8
+    validation: 0.1
+    test: 0.1
+
+  # Quality filters for training data
+  filters:
+    min_duration: 1.0  # seconds - exclude very short segments
+    max_duration: 30.0  # seconds - exclude very long segments
+    min_confidence: 0.0  # alignment confidence threshold (0.0 = no filter)
+    max_wer: null  # Filter out segments with WER above this (null = no filter)
+
+  # Preprocessing
+  preprocessing:
+    normalize_text: true  # Apply text normalization
+    lowercase: false  # Convert to lowercase
+    remove_punctuation: false  # Remove punctuation
+
+# Training hyperparameters
+hyperparameters:
+  # Batch configuration
+  batch_size: 2  # Per-device batch size (adjust for GPU memory)
+  gradient_accumulation_steps: 8  # Effective batch = batch_size * gradient_accumulation
+  # Effective batch size = 2 * 8 = 16
+
+  # Learning rate
+  learning_rate: 1.0e-5  # Initial learning rate
+  warmup_steps: 100  # Learning rate warmup
+  max_grad_norm: 1.0  # Gradient clipping
+
+  # Training duration
+  num_epochs: 5  # Number of training epochs
+  max_steps: -1  # Max steps (overrides epochs if set, -1 = use epochs)
+
+  # Early stopping
+  early_stopping:
+    enabled: false
+    patience: 3  # Stop if no improvement for N evaluations
+    threshold: 0.01  # Minimum improvement to count as better
+
+# Optimization configuration
+optimizer:
+  type: "adamw"  # Options: adamw, adam, sgd, adafactor
+  weight_decay: 0.01
+  beta1: 0.9
+  beta2: 0.999
+  epsilon: 1.0e-8
+
+# Learning rate scheduler
+lr_scheduler:
+  type: "linear"  # Options: linear, cosine, polynomial, constant
+  warmup_ratio: 0.1  # Fraction of training for warmup (overrides warmup_steps if > 0)
+
+# Mixed precision training
+mixed_precision:
+  enabled: true  # Enable mixed precision (fp16/bf16)
+  fp16: true  # Use FP16 on CUDA
+  bf16: false  # Use BF16 (better for A100/H100, not supported on RTX 3050)
+  fp16_opt_level: "O1"  # APEX optimization level (if using APEX)
+
+# Model freezing (when strategy != "full")
+freezing:
+  freeze_encoder: true  # Freeze encoder weights
+  freeze_decoder: false  # Freeze decoder weights
+  freeze_embed: true  # Freeze embedding layers
+
+# LoRA Configuration (only used when strategy = "lora")
+lora:
+  # LoRA parameters
+  rank: 32  # LoRA rank (r) - higher = more capacity, more memory
+  alpha: 64  # LoRA alpha - scaling factor (typically 2*rank)
+  dropout: 0.05  # LoRA dropout rate
+
+  # Target modules (which layers to apply LoRA to)
+  target_modules:
+    - "q_proj"  # Query projection in attention
+    - "v_proj"  # Value projection in attention
+    # Optionally add more:
+    # - "k_proj"  # Key projection
+    # - "out_proj"  # Output projection
+    # - "fc1"  # Feed-forward layer 1
+    # - "fc2"  # Feed-forward layer 2
+
+  bias: "none"  # Bias training: "none", "all", "lora_only"
+  # task_type: "CAUSAL_LM"  # Task type for PEFT
+
+  # LoRA presets for quick experimentation
+  presets:
+    minimal:  # Ultra-low memory (~4GB)
+      rank: 8
+      alpha: 16
+      dropout: 0.05
+      target_modules: ["q_proj", "v_proj"]
+
+    small:  # Low memory (~5GB)
+      rank: 16
+      alpha: 32
+      dropout: 0.05
+      target_modules: ["q_proj", "v_proj"]
+
+    medium:  # Balanced (6GB - RECOMMENDED for RTX 3050)
+      rank: 32
+      alpha: 64
+      dropout: 0.05
+      target_modules: ["q_proj", "v_proj"]
+
+    large:  # High capacity (8-10GB)
+      rank: 64
+      alpha: 128
+      dropout: 0.05
+      target_modules: ["q_proj", "v_proj", "k_proj", "out_proj"]
+
+    full_attention:  # All attention layers (12GB+)
+      rank: 64
+      alpha: 128
+      dropout: 0.05
+      target_modules: ["q_proj", "k_proj", "v_proj", "out_proj"]
+
+# Checkpointing
+checkpoints:
+  save_strategy: "epoch"  # Options: "steps", "epoch", "no"
+  save_steps: 500  # Save every N steps (if save_strategy = "steps")
+  save_total_limit: 3  # Keep only N best checkpoints
+  load_best_model_at_end: true  # Load best model after training
+
+  # Checkpoint selection
+  metric_for_best_model: "wer"  # Metric to use for best model selection
+  greater_is_better: false  # Lower WER is better
+
+# Evaluation configuration
+evaluation:
+  strategy: "epoch"  # Options: "steps", "epoch", "no"
+  steps: 500  # Evaluate every N steps (if strategy = "steps")
+
+  # Evaluation metrics
+  metrics:
+    - "wer"  # Word Error Rate (primary)
+    # - "cer"  # Character Error Rate (optional)
+    # - "loss"  # Training loss
+
+  # Generation settings for evaluation
+  predict_with_generate: true
+  generation_max_length: 225
+  generation_num_beams: 1  # Beam search (1 = greedy)
+
+# Logging configuration
+logging:
+  steps: 10  # Log every N steps
+  dir: "logs"  # Logging directory (relative to output_dir)
+
+  # Logging backends
+  report_to:
+    - "tensorboard"  # TensorBoard logging
+    # - "wandb"  # Weights & Biases (requires wandb login)
+    # - "none"  # Disable external logging
+
+  # Logging detail level
+  log_level: "info"  # Options: debug, info, warning, error
+  log_on_each_node: false  # Only log on main process in distributed training
+
+# Memory optimization
+memory:
+  gradient_checkpointing: false  # Enable gradient checkpointing (slower but saves memory)
+  optim_memory_level: 0  # DeepSpeed optimization level (0-3, higher = more memory efficient)
+
+  # Memory monitoring
+  monitor_memory: true  # Log GPU memory usage during training
+  memory_log_interval: 10  # Log memory every N steps
+
+# Advanced: Quantization (experimental)
+quantization:
+  enabled: false  # Enable quantization-aware training
+  load_in_8bit: false  # Load model in 8-bit (requires bitsandbytes)
+  load_in_4bit: false  # Load model in 4-bit (requires bitsandbytes)
+
+# Data loading
+data_loader:
+  num_workers: 4  # Number of CPU workers for data loading
+  pin_memory: true  # Pin memory for faster GPU transfer
+  prefetch_factor: 2  # How many batches to prefetch per worker
+
+# Reproducibility
+seed: 42  # Random seed for reproducibility
+deterministic: false  # Enable deterministic operations (slower but reproducible)
+
+# Distributed training (for multi-GPU)
+distributed:
+  enabled: false
+  backend: "nccl"  # Options: nccl, gloo
+  find_unused_parameters: false

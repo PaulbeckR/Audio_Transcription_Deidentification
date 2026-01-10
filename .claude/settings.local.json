@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python run_baseline_test.py:*)",
+      "Bash(powershell.exe -Command \"& ''.\\\\.venv_whisperx\\\\Scripts\\\\python.exe'' -c ''import whisperx; print\\(whisperx.__version__\\)''\")",
+      "Bash(move transcript_notebook.ipynb old_code )",
+      "Bash(move one_and_done.py old_code )",
+      "Bash(move helper_functions.py old_code )",
+      "Bash(move prepare_completed_transcripts.ipynb old_code )",
+      "Bash(move test_notebook.ipynb old_code )",
+      "Bash(move TEST_TRUTH.ipynb old_code )",
+      "Bash(move create_pretrain_data.ipynb old_code )",
+      "Bash(move create_pretraining_data.ipynb old_code )",
+      "Bash(move create_rttm.ipynb old_code )",
+      "Bash(move calculate_wer.py old_code )",
+      "Bash(move:*)",
+      "Bash(python:*)",
+      "Bash(powershell -Command:*)"
+    ]
+  }
+}

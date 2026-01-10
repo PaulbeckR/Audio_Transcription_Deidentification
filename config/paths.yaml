@@ -1,0 +1,37 @@
+# Audio Transcription Deidentification - Paths Configuration
+# All paths relative to project root unless specified as absolute
+
+
+
+# Base directories
+project_root: "."
+audio_files: "Audio_Local_tests/audio_files"
+transcripts: "Audio_Local_tests/transcription_test"
+output: "Audio_Local_tests/baseline_output"
+
+# Training data paths
+training:
+  root: "training_data"
+  aligned: "training_data/aligned"
+  inventory: "training_data/inventory.json"
+  raw: "training_data/raw"
+
+# Temporary/intermediate paths
+temp:
+  audio_clips: "Audio_Local_tests/audio_clips"
+  wav_files: "Audio_Local_tests/wav_files"
+
+# Output directories by framework
+output_dirs:
+  whisper: "Audio_Local_tests/baseline_output/whisper"
+  whisperx: "Audio_Local_tests/baseline_output/whisperx"
+  pretrain_test: "Audio_Local_tests/baseline_output/pretrain_test"
+  current_exp: "Audio_PBox_tests/init_test"
+
+
+# External dependencies
+external:
+  ffmpeg: "C:\\Users\\rpaul\\ffmpeg-2025-12-18-git-78c75d546a-essentials_build\\bin"
+  huggingface_token: null  # Set via environment variable HF_TOKEN
+
+

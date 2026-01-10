@@ -1,0 +1,97 @@
+version: '3.8'
+
+services:
+  # Main transcription pipeline (Whisper + Pyannote)
+  # Use for: Baseline transcription, evaluation
+  transcription:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.main
+    image: audio-transcription:main
+    container_name: transcription-main
+    runtime: nvidia  # Enable NVIDIA GPU support
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - HF_HOME=/workspace/.cache/huggingface
+      - PYANNOTE_TOKEN=${PYANNOTE_TOKEN}  # Set in .env file
+    volumes:
+      - ../:/workspace
+      - ../Audio_Local_tests:/workspace/Audio_Local_tests
+      - ../models:/workspace/models
+      - ../.cache:/workspace/.cache
+    working_dir: /workspace
+    command: /bin/bash
+    stdin_open: true
+    tty: true
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  # WhisperX environment (separate PyTorch version)
+  # Use for: Word-level alignment, forced alignment
+  whisperx:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.whisperx
+    image: audio-transcription:whisperx
+    container_name: transcription-whisperx
+    runtime: nvidia  # Enable NVIDIA GPU support
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - HF_HOME=/workspace/.cache/huggingface
+      - PYANNOTE_TOKEN=${PYANNOTE_TOKEN}
+    volumes:
+      - ../:/workspace
+      - ../Audio_Local_tests:/workspace/Audio_Local_tests
+      - ../training_data:/workspace/training_data
+      - ../.cache:/workspace/.cache
+    working_dir: /workspace
+    command: /bin/bash
+    stdin_open: true
+    tty: true
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  # Fine-tuning environment (includes training dependencies)
+  # Use for: Whisper fine-tuning with LoRA, TensorBoard monitoring
+  finetuning:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.finetuning
+    image: audio-transcription:finetuning
+    container_name: transcription-finetuning
+    runtime: nvidia  # Enable NVIDIA GPU support
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - HF_HOME=/workspace/.cache/huggingface
+      - PYANNOTE_TOKEN=${PYANNOTE_TOKEN}
+    volumes:
+      - ../:/workspace
+      - ../prepared_datasets:/workspace/prepared_datasets
+      - ../models:/workspace/models
+      - ../.cache:/workspace/.cache
+    working_dir: /workspace
+    ports:
+      - "6006:6006"  # TensorBoard
+    command: /bin/bash
+    stdin_open: true
+    tty: true
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]

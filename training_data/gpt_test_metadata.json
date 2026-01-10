@@ -1,0 +1,10 @@
+{
+  "created_at": "2025-12-28T12:56:32.266121",
+  "audio_file": "gpt_test.m4a",
+  "ground_truth_file": "gpt_test_truth.csv",
+  "duration_seconds": 383.508,
+  "num_segments": 79,
+  "num_words": 1045,
+  "alignment_model": "whisperx",
+  "language": "en"
+}

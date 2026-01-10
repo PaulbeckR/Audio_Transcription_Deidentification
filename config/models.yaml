@@ -1,0 +1,59 @@
+# Audio Transcription Deidentification - Model Configuration
+# Based on comprehensive testing results (see Notes/MODEL_COMPARISON.md)
+
+# WhisperX Configuration (RECOMMENDED - Best WER: 25.01%)
+whisperx:
+  enabled: true
+  model: "large-v2"  # Best overall: 25.01% WER, 2.26x realtime
+  model_name: "openai/whisper-large-v2"  # Hugging Face model name for fine-tuning
+  device: "cuda"  # or "cpu"
+  compute_type: "float16"  # float16 for GPU, int8 for CPU
+  batch_size: 4  # Optimized for 6GB GPU (RTX 3050)
+  language: "en"
+
+  # Alternative models (uncomment to use)
+  # model: "medium.en"  # Fastest: 28.30% WER, 6.46x realtime
+  # model: "large-v3"   # Not recommended: 28.36% WER, 2.16x realtime
+
+  # Alignment settings
+  alignment:
+    return_char_alignments: false
+
+  # Diarization settings
+  diarization:
+    enabled: true
+    min_speakers: null  # Auto-detect
+    max_speakers: 2  # Auto-detect
+
+# Whisper Fallback Configuration
+whisper:
+  model: "large-v2"  # Best Whisper: 27.60% WER, 0.61x realtime (SLOW)
+  device: "cuda"  # or "cpu"
+  language: "en"
+  task: "transcribe"  # or "translate"
+
+  # Word-level timestamps (Whisper native)
+  word_timestamps: true
+
+  # Alternative models
+  # model: "medium.en"  # Faster: 28.95% WER, 2.53x realtime
+  # model: "large-v3"   # Similar to large-v2: 28.13% WER, 0.64x realtime
+
+  # Loading options (for large models)
+  in_memory: true  # Prevents OSError on Windows with large files
+
+# Pyannote Diarization (for Whisper pipeline)
+pyannote:
+  model: "pyannote/speaker-diarization-3.1"
+  device: "cuda"  # or "cpu"
+
+# Device Auto-Detection
+auto_device:
+  prefer_gpu: true
+  fallback_to_cpu: true
+
+# Memory Management
+memory:
+  whisperx_batch_size_6gb: 4
+  whisperx_batch_size_8gb: 8
+  whisperx_batch_size_12gb: 16

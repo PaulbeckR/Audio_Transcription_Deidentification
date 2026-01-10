@@ -1,5 +1,22 @@
 # Speaker Segmentation and Diarization (identify and label speakers)
 
+WHISPER_MODELS = [
+    # Multilingual models
+    "tiny",
+    "base",
+    "small",
+    "medium",
+    "large",
+    "large-v2",
+    "large-v3",
+
+    # English-only models
+    "tiny.en",
+    "base.en",
+    "small.en",
+    "medium.en",
+]
+
 ## Reference: Recent Methods in and Algorithms in Speech Segmentation Tasks: link.springer.com/chapter/10.1007/978-3-031-70259-4_21
 
 1. Process:
@@ -46,6 +63,9 @@
     c. Kaldi, research and industry
     d. pyAudioDiarization: ML techniques, 
     c. NVIDIA NeMO: 
+
+8. Fine tuning:
+    a.LoRA: 
 
 
 # Model Evaluation: 

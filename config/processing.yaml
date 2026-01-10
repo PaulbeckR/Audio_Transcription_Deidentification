@@ -1,0 +1,95 @@
+# Audio Transcription Deidentification - Processing Configuration
+
+# Audio Preprocessing
+audio:
+  sample_rate: 16000
+  trim_silence: true
+  silence_threshold: -40  # dB
+  padding: 0.5  # seconds
+
+  # Format conversion
+  target_format: "wav"
+  channels: 1  # mono
+
+# Alignment Settings (WhisperX)
+alignment:
+  return_char_alignments: false
+  interpolate_method: "nearest"
+
+  # Quality control
+  min_word_confidence: 0.0  # Filter words below this score
+  min_segment_duration: 0.1  # seconds
+
+# Diarization Settings
+diarization:
+  enabled: true
+
+  # Speaker detection
+  min_speakers: null  # null = auto-detect
+  max_speakers: null  # null = auto-detect
+
+  # Segmentation
+  min_segment_duration: 0.5  # seconds
+  max_segment_duration: 30.0  # seconds
+
+# Output Format Configuration
+output:
+  # Primary format
+  format: "json"  # Options: "json", "csv", "txt"
+
+  # JSON output options
+  json:
+    indent: 2
+    include_metadata: true
+    include_confidence: true
+    include_word_timestamps: true
+    include_speaker_labels: true
+
+  # CSV output options (if format = "csv")
+  csv:
+    delimiter: ","
+    include_header: true
+
+  # Output naming
+  naming:
+    include_model: true
+    include_device: true
+    include_timestamp: true
+
+# Metrics and Evaluation
+metrics:
+  calculate_wer: true
+  calculate_der: false  # Diarization Error Rate (not yet implemented)
+
+  # WER calculation options
+  normalize_punctuation: true  # Remove punctuation before WER calculation
+  # If true, punctuation differences are tracked separately and don't inflate WER
+
+  # Ground truth comparison
+  ground_truth_format: "xlsx"  # or "txt", "csv"
+
+  # Performance tracking
+  track_timing: true
+  track_memory: true
+
+# Batch Processing
+batch:
+  enabled: false
+  max_workers: 1  # Parallel processing (GPU constrained, keep at 1)
+  skip_existing: true  # Skip files already processed
+  continue_on_error: true
+
+# Training Data Export
+training_export:
+  enabled: false
+  format: "huggingface"  # Options: "huggingface", "json", "csv"
+
+  # Data splitting
+  train_split: 0.8
+  val_split: 0.1
+  test_split: 0.1
+
+  # Quality filters
+  min_audio_duration: 1.0  # seconds
+  max_audio_duration: 30.0  # seconds
+  min_wer: null  # Only export segments with WER below this (null = no filter)

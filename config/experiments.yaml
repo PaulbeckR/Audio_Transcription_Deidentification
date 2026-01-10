@@ -1,0 +1,280 @@
+# Audio Transcription Deidentification - Experiments Configuration
+# Define and manage different experiment configurations for systematic testing
+
+# Active experiment (which config to use by default)
+active_experiment: "baseline_lora"
+
+# Experiment definitions
+# Each experiment overrides settings from training.yaml
+experiments:
+  # Baseline with LoRA (RECOMMENDED - matches your successful run)
+  baseline_lora:
+    name: "baseline-lora-r32"
+    description: "Baseline fine-tuning with LoRA rank 32 (matches Dec 29, 2025 results)"
+    enabled: true
+
+    # Override training settings
+    strategy:
+      method: "lora"
+
+    hyperparameters:
+      batch_size: 2
+      gradient_accumulation_steps: 8
+      learning_rate: 1.0e-5
+      num_epochs: 5
+
+    lora:
+      rank: 32
+      alpha: 64
+      dropout: 0.05
+      target_modules: ["q_proj", "v_proj"]
+
+    dataset:
+      output_dir: "models/whisper-finetuned-lora-r32"
+
+  # Full fine-tuning (NO LoRA - for comparison)
+  full_finetune:
+    name: "full-finetune-decoder"
+    description: "Full decoder fine-tuning without LoRA (requires more VRAM)"
+    enabled: true
+
+    strategy:
+      method: "freeze_encoder"  # Freeze encoder, train full decoder
+
+    hyperparameters:
+      batch_size: 1  # Reduced for memory
+      gradient_accumulation_steps: 16  # Maintain effective batch size
+      learning_rate: 5.0e-6  # Lower LR for full fine-tuning
+      num_epochs: 3  # Fewer epochs to avoid overfitting
+
+    freezing:
+      freeze_encoder: true
+      freeze_decoder: false
+
+    dataset:
+      output_dir: "models/whisper-finetuned-full-decoder"
+
+  # Full model fine-tuning (everything trainable)
+  full_model:
+    name: "full-model-finetune"
+    description: "Complete model fine-tuning (encoder + decoder, NO LoRA)"
+    enabled: false  # Disabled by default - requires 24GB+ VRAM
+
+    strategy:
+      method: "full"
+
+    hyperparameters:
+      batch_size: 1
+      gradient_accumulation_steps: 32
+      learning_rate: 1.0e-6  # Very low LR
+      num_epochs: 2
+
+    freezing:
+      freeze_encoder: false
+      freeze_decoder: false
+
+    dataset:
+      output_dir: "models/whisper-finetuned-full-model"
+
+  # Quick test (fast iteration during development)
+  quick_test:
+    name: "quick-test"
+    description: "Quick test run with minimal LoRA for rapid iteration"
+    enabled: true
+
+    strategy:
+      method: "lora"
+
+    hyperparameters:
+      batch_size: 2
+      gradient_accumulation_steps: 4
+      learning_rate: 1.0e-5
+      num_epochs: 1  # Just 1 epoch for testing
+      warmup_steps: 10
+
+    lora:
+      rank: 8  # Minimal rank
+      alpha: 16
+      dropout: 0.05
+      target_modules: ["q_proj", "v_proj"]
+
+    dataset:
+      output_dir: "models/whisper-finetuned-quick-test"
+
+  # High capacity LoRA
+  lora_large:
+    name: "lora-r64-high-capacity"
+    description: "High-capacity LoRA (rank 64) for maximum quality"
+    enabled: true
+
+    strategy:
+      method: "lora"
+
+    hyperparameters:
+      batch_size: 1  # Lower batch for memory
+      gradient_accumulation_steps: 16
+      learning_rate: 1.0e-5
+      num_epochs: 5
+
+    lora:
+      rank: 64
+      alpha: 128
+      dropout: 0.05
+      target_modules: ["q_proj", "v_proj", "k_proj", "out_proj"]  # More modules
+
+    dataset:
+      output_dir: "models/whisper-finetuned-lora-r64"
+
+  # Learning rate exploration
+  high_lr:
+    name: "high-learning-rate"
+    description: "Test higher learning rate with LoRA"
+    enabled: true
+
+    strategy:
+      method: "lora"
+
+    hyperparameters:
+      batch_size: 2
+      gradient_accumulation_steps: 8
+      learning_rate: 5.0e-5  # 5x higher
+      num_epochs: 5
+
+    lora:
+      rank: 32
+      alpha: 64
+      dropout: 0.05
+      target_modules: ["q_proj", "v_proj"]
+
+    dataset:
+      output_dir: "models/whisper-finetuned-high-lr"
+
+  # Extended training
+  extended_training:
+    name: "extended-epochs"
+    description: "Extended training with more epochs"
+    enabled: true
+
+    strategy:
+      method: "lora"
+
+    hyperparameters:
+      batch_size: 2
+      gradient_accumulation_steps: 8
+      learning_rate: 1.0e-5
+      num_epochs: 10  # More epochs
+
+    lora:
+      rank: 32
+      alpha: 64
+      dropout: 0.05
+      target_modules: ["q_proj", "v_proj"]
+
+    checkpoints:
+      save_strategy: "epoch"
+      save_total_limit: 5  # Keep more checkpoints
+
+    dataset:
+      output_dir: "models/whisper-finetuned-extended"
+
+# Hyperparameter sweep configuration (for automated grid/random search)
+sweep:
+  enabled: false  # Set to true to enable sweep mode
+  method: "grid"  # Options: grid, random, bayesian
+
+  # Parameter grid
+  parameters:
+    # Strategy comparison
+    "strategy.method":
+      values: ["lora", "freeze_encoder"]
+
+    # LoRA rank exploration (only applies when method = "lora")
+    "lora.rank":
+      values: [16, 32, 64]
+
+    # Learning rate exploration
+    "hyperparameters.learning_rate":
+      values: [5.0e-6, 1.0e-5, 5.0e-5]
+
+    # Epoch exploration
+    "hyperparameters.num_epochs":
+      values: [3, 5, 10]
+
+  # Sweep constraints
+  constraints:
+    max_runs: 20  # Maximum number of sweep runs
+    timeout_per_run: 7200  # Max seconds per run (2 hours)
+
+  # Parallel execution
+  parallel:
+    enabled: false  # Run experiments in parallel
+    max_workers: 1  # Number of parallel runs (GPU limited)
+
+  # Early stopping for sweep
+  early_stopping:
+    enabled: true
+    metric: "wer"
+    min_improvement: 0.01  # Stop run if WER not improving by 1%
+    patience: 2
+
+# Dataset variations (for testing on different data)
+datasets:
+  # Current dataset (GPT test set from your Dec 29 results)
+  gpt_test:
+    name: "gpt_test_set"
+    description: "GPT-generated test set (79 segments, 1045 words)"
+    input_dir: "prepared_datasets/whisper_finetuning"
+    stats:
+      segments: 79
+      words: 1045
+      duration_seconds: 383.5
+
+  # Full interview dataset (when you have it)
+  full_interviews:
+    name: "full_interview_dataset"
+    description: "Complete interview transcripts for production training"
+    input_dir: "prepared_datasets/whisper_finetuning_full"
+    enabled: false  # Set true when dataset is ready
+
+  # Mixed dataset
+  mixed:
+    name: "mixed_dataset"
+    description: "Combination of GPT test + real interviews"
+    input_dir: "prepared_datasets/whisper_finetuning_mixed"
+    enabled: false
+
+# Active dataset
+active_dataset: "gpt_test"
+
+# Comparison tracking
+# Track which experiments to compare in evaluation reports
+comparisons:
+  baseline:
+    experiments:
+      - "baseline_lora"  # Your proven configuration
+      - "full_finetune"  # No LoRA comparison
+      - "lora_large"  # High capacity LoRA
+
+  learning_rate:
+    experiments:
+      - "baseline_lora"
+      - "high_lr"
+
+  capacity:
+    experiments:
+      - "quick_test"  # rank 8
+      - "baseline_lora"  # rank 32
+      - "lora_large"  # rank 64
+
+# Metadata
+metadata:
+  created: "2026-01-07"
+  last_modified: "2026-01-07"
+  author: "Audio Transcription Deidentification Project"
+  notes: |
+    Experiment configurations for systematic testing of Whisper fine-tuning.
+    Baseline configuration matches successful Dec 29, 2025 run:
+    - LoRA rank 32, alpha 64
+    - Learning rate 1e-5
+    - 5 epochs
+    - Batch size 2, gradient accumulation 8

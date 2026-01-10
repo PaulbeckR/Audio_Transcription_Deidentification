@@ -1,0 +1,21 @@
+# Fine-Tuning Dependencies for Whisper Training
+# Install these in addition to base requirements.txt
+# Usage: pip install -r requirements_finetuning.txt
+
+# HuggingFace Core Libraries
+datasets>=2.14.0,<4.0.0       # Dataset loading and processing (pinned to <4.0 to avoid torchcodec dependency)
+transformers>=4.35.0          # WhisperForConditionalGeneration, WhisperProcessor
+evaluate>=0.4.0               # Metrics computation (WER, etc.)
+
+# Parameter-Efficient Fine-Tuning
+peft>=0.7.0                   # LoRA implementation (LoraConfig, get_peft_model)
+
+# Training Acceleration
+accelerate>=0.24.0            # Multi-GPU training, gradient accumulation optimization
+
+# Training Monitoring
+tensorboard>=2.14.0           # Training visualization and logging
+
+# Optional: Enhanced Training Features
+# deepspeed>=0.12.0           # Uncomment for distributed training optimization
+# bitsandbytes>=0.41.0        # Uncomment for 8-bit/4-bit quantization

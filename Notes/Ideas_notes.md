@@ -17,3 +17,10 @@
 # 12/12/24:
 
 CPU optimization: install torch torchvision torchaudio --index-url hhtps://download.pytorch.org/whl/cpu
+
+
+# 3/11/25:
+
+1. Preparing data for pre-training: need time stamps. 
+- Get Rttm Files, Match speaker times to labled data? - correct on own? 
+

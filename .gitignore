@@ -1,19 +1,22 @@
 # Ignore Virtual Env
 
 venv/
-
+venv_whisperx/
 # Byte Code 
 
 __pycache__/
 *.py[cod]
 *$py.class
 
-#Cache files
-*.env 
-.env 
+#Cache files and environment files
+*.env
+.env
+.env.*
+environment_variables.env 
 
 #Package Directories
 .venv/
+.venv_whisperx/
 *.egg-info
 dist/
 build/
@@ -26,7 +29,17 @@ rttm_files/
 transcribed_audio/
 
 
+Audio_Local_tests/
+datasets/whisper_finetuning/
+training_data/
+prepared_datasets/
 
+# Model checkpoints and training outputs
+models/whisper-finetuned*/
+models/whisper-lora-*/
+
+# Sensitive data directories
+.cache/
 
 PC1-1025-01
 PC1-1025-01.wav
@@ -35,3 +48,7 @@ PC1-1025-01_S1_2022.02.28.m4a.wav
 *.m4a
 hamlet_test
 hamlet_test.wav
+.venv_whisperx/Lib/site-packages/_soundfile.py
+
+
+null    
